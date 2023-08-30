@@ -9,6 +9,7 @@
         document.documentElement.className = document.documentElement.className + ' yes-js js_active js'
     </script>
     <title> &#8211;Afitap Kebap</title>
+    
     <meta name='robots' content='max-image-preview:large' />
     <link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
     <link rel="alternate" type="application/rss+xml" title="Kudil Restaurant WordPress Theme &raquo; Feed"
@@ -3563,15 +3564,18 @@
                             <h1>Menu</h1>
                         </div>
                         <div class="breadcrumb">
-                            <a href="https://dtkudil.wpengine.com/">Home</a>
+                            <a href="index.html">Ana Sayfa</a>
                             <span class="fa fa-coffee"></span>
-                            <span class="current">Our Menu </span>
+                            <span class="current">Bizim Menümüz </span>
                         </div>
                     </div>
                 </section>
                 <!-- ** Breadcrumb End ** -->
             </div>
             <!-- ** Header Wrapper - End ** -->
+            <script>
+                
+            </script>
             <!-- **Main** -->
             <div id="main">
                 <!-- ** Container ** -->
@@ -3603,42 +3607,46 @@
                             </div> -->
                                         <div class="" id="options-choose">
                                             <div class="">
-                                                <h3 style="color: #C59D5F;">Clear All
+                                                <button style="color: #C59D5F;">Hepsini Temizle
                                                     <!-- <i class="fa fa-bars"></i> -->
-                                                </h3>
+                                                </button>
                                             </div>
                                             <div class="">
-                                                <h3>KEBAPLAR</h3>
+                                                    <button class="filter-btn" data-filter="Kebaplar"> KEBAPLAR</button>
                                             </div>
                                             <div class="">
-                                                <h3>MEZELER</h3>
+                                                <button class="filter-btn" data-filter="mezeler">MEZELER</button>
+                                                
                                             </div>
                                             <div class="">
-                                                <h3>SALATALAR</h3>
+                                                <button class="filter-btn" data-filter="salatalar">SALATALAR</button>
+                                                
                                             </div>
                                             <div class="">
-                                                <h3>ARA SICAKLAR</h3>
+                                                <button class="filter-btn" data-filter="ara-sıcaklar">ARA SICAKLAR</button>
+                                                
+                                            </div>
+                                          
+                                            <div class="">
+                                                <button class="filter-btn" data-filter="dürümler">DÜRÜMLER</button>
+                                                
                                             </div>
                                             <div class="">
-                                                <h3>TAVUK KEBAPLAR</h3>
+                                                <button class="filter-btn" data-filter="diyet-menu">DİYET MENÜ</button>
+                                                
                                             </div>
                                             <div class="">
-                                                <h3>DÜRÜMLER</h3>
+                                                <button class="filter-btn" data-filter="cocuk-menu">ÇOCUK MENÜSÜ</button>
+                                                
+                                            </div>
+                                            
+                                            <div class="">
+                                                <button class="filter-btn" data-filter="alkollu-icecekler">ALKOLLÜ İÇECEKLER</button>
+                                                
                                             </div>
                                             <div class="">
-                                                <h3>DİYET MENÜ</h3>
-                                            </div>
-                                            <div class="">
-                                                <h3>ÇOCUK MENÜSÜ</h3>
-                                            </div>
-                                            <div class="">
-                                                <h3>TATLILAR</h3>
-                                            </div>
-                                            <div class="">
-                                                <h3>ALKOLLÜ İÇECEKLER</h3>
-                                            </div>
-                                            <div class="">
-                                                <h3>FIRIN ÜRÜNLERİ</h3>
+                                                <button class="filter-btn" data-filter="fırın-urunleri">FIRIN ÜRÜNLERİ</button>
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -3647,7 +3655,7 @@
                                 <div class="vc_row wpb_row vc_row-fluid">
                                     <div class="wpb_column vc_column_container vc_col-sm-12">
                                         <div class="vc_column-inner ">
-                                            <div class="wpb_wrapper">
+                                            <div class="wpb_wrapper-ara-sıcaklar">
                                                 <div class="vc_row wpb_row vc_inner vc_row-fluid">
                                                     <div class="wpb_column vc_column_container vc_col-sm-12"
                                                         style=" text-align:center; ">
@@ -3982,11 +3990,11 @@
                     </section>
                  
                     <div class="vc_row-full-width vc_clearfix"></div>
-                    <section class="vc_section dt_data_bully">
+                    <section class="vc_section dt_data_bully" id="salatalar">
                         <div class="vc_row wpb_row vc_row-fluid">
                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                 <div class="vc_column-inner ">
-                                    <div class="wpb_wrapper">
+                                    <div class="wpb_wrapper-salatalar">
                                         <div id="1524303087103-fe772352-bcc5" class="dt-sc-empty-space"></div>
                                         <div class="vc_row wpb_row vc_inner vc_row-fluid">
                                             <div class="wpb_column vc_column_container vc_col-sm-12"
@@ -4242,7 +4250,7 @@
                         <div class="vc_row wpb_row vc_row-fluid">
                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                 <div class="vc_column-inner ">
-                                    <div class="wpb_wrapper">
+                                    <div class="wpb_wrapper-mezeler">
                                         <div id="1524303255715-5b46d43d-559a" class="dt-sc-empty-space"></div>
                                         <div class="vc_row wpb_row vc_inner vc_row-fluid">
                                             <div class="wpb_column vc_column_container vc_col-sm-12"
@@ -4705,7 +4713,7 @@
                         <div class="vc_row wpb_row vc_row-fluid">
                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                 <div class="vc_column-inner ">
-                                    <div class="wpb_wrapper">
+                                    <div class="wpb_wrapper-fırın">
                                         <div id="1524303087103-fe772352-bcc5" class="dt-sc-empty-space"></div>
                                         <div class="vc_row wpb_row vc_inner vc_row-fluid">
                                             <div class="wpb_column vc_column_container vc_col-sm-12"
@@ -5108,7 +5116,7 @@
                         <div class="vc_row wpb_row vc_row-fluid">
                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                 <div class="vc_column-inner ">
-                                    <div class="wpb_wrapper">
+                                    <div class="wpb_wrapper-kebaplar">
                                         <div id="1524303087103-fe772352-bcc5" class="dt-sc-empty-space"></div>
                                         <div class="vc_row wpb_row vc_inner vc_row-fluid">
                                             <div class="wpb_column vc_column_container vc_col-sm-12"
@@ -5836,11 +5844,11 @@
                             </div>
                         </div>
                     </section>
-                    <section class="vc_section dt_data_bully">
+                    <section class="vc_section dt_data_bully " id="dürümler">
                         <div class="vc_row wpb_row vc_row-fluid">
                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                 <div class="vc_column-inner ">
-                                    <div class="wpb_wrapper">
+                                    <div class="wpb_wrapper-dürümler">
                                         <div id="1524303087103-fe772352-bcc5" class="dt-sc-empty-space"></div>
                                         <div class="vc_row wpb_row vc_inner vc_row-fluid">
                                             <div class="wpb_column vc_column_container vc_col-sm-12"
@@ -6114,7 +6122,7 @@
                         <div class="vc_row wpb_row vc_row-fluid">
                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                 <div class="vc_column-inner ">
-                                    <div class="wpb_wrapper">
+                                    <div class="wpb_wrapper-diyet-menü">
                                         <div id="1524303087103-fe772352-bcc5" class="dt-sc-empty-space"></div>
                                         <div class="vc_row wpb_row vc_inner vc_row-fluid">
                                             <div class="wpb_column vc_column_container vc_col-sm-12"
@@ -6210,7 +6218,7 @@
                         <div class="vc_row wpb_row vc_row-fluid">
                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                 <div class="vc_column-inner ">
-                                    <div class="wpb_wrapper">
+                                    <div class="wpb_wrapper-cocuk-menusu">
                                         <div id="1524303087103-fe772352-bcc5" class="dt-sc-empty-space"></div>
                                         <div class="vc_row wpb_row vc_inner vc_row-fluid">
                                             <div class="wpb_column vc_column_container vc_col-sm-12"
@@ -6359,7 +6367,7 @@
                         <div class="vc_row wpb_row vc_row-fluid">
                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                 <div class="vc_column-inner ">
-                                    <div class="wpb_wrapper">
+                                    <div class="wpb_wrapper-alkollu-icecekler">
                                         <div id="1524303087103-fe772352-bcc5" class="dt-sc-empty-space"></div>
                                         <div class="vc_row wpb_row vc_inner vc_row-fluid">
                                             <div class="wpb_column vc_column_container vc_col-sm-12"
@@ -6770,7 +6778,7 @@
                         <div class="vc_row wpb_row vc_row-fluid">
                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                 <div class="vc_column-inner ">
-                                    <div class="wpb_wrapper">
+                                    <div class="wpb_wrapper-alkollu-icecekler">
                                         <div id="1524303087103-fe772352-bcc5" class="dt-sc-empty-space"></div>
                                         <div class="vc_row wpb_row vc_inner vc_row-fluid">
                                             <div class="wpb_column vc_column_container vc_col-sm-12"
@@ -6835,7 +6843,7 @@
                         <div class="vc_row wpb_row vc_row-fluid">
                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                 <div class="vc_column-inner ">
-                                    <div class="wpb_wrapper">
+                                    <div class="wpb_wrapper-alkollu-icecekler">
                                         <div id="1524303087103-fe772352-bcc5" class="dt-sc-empty-space"></div>
                                         <div class="vc_row wpb_row vc_inner vc_row-fluid">
                                             <div class="wpb_column vc_column_container vc_col-sm-12"
@@ -7105,7 +7113,7 @@
                         <div class="vc_row wpb_row vc_row-fluid">
                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                 <div class="vc_column-inner ">
-                                    <div class="wpb_wrapper">
+                                    <div class="wpb_wrapper-alkollu-icecekler">
                                         <div id="1524303087103-fe772352-bcc5" class="dt-sc-empty-space"></div>
                                         <div class="vc_row wpb_row vc_inner vc_row-fluid">
                                             <div class="wpb_column vc_column_container vc_col-sm-12"
@@ -7236,7 +7244,7 @@
                         <div class="vc_row wpb_row vc_row-fluid">
                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                 <div class="vc_column-inner ">
-                                    <div class="wpb_wrapper">
+                                    <div class="wpb_wrapper-icecekler">
                                         <div id="1524303087103-fe772352-bcc5" class="dt-sc-empty-space"></div>
                                         <div class="vc_row wpb_row vc_inner vc_row-fluid">
                                             <div class="wpb_column vc_column_container vc_col-sm-12"
@@ -8405,6 +8413,7 @@
     <script type='text/javascript'
         src='https://dtkudil.wpenginepowered.com/wp-content/plugins/designthemes-core-features/shortcodes/js/jquery.gmap.js'
         id='jquery.gmap-js'></script>
+    <script src="filter.js"></script>
 </body>
 
 </html>
