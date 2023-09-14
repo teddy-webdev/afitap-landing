@@ -1,43 +1,93 @@
-document.addEventListener("DOMContentLoaded", function() {
-  const filterButtons = document.querySelectorAll(".filter-btn");
-  const productItems = document.querySelectorAll(".dt-product-item");
-  const arasıcaklar = document.querySelector(".wpb_wrapper-ara-sıcaklar"); 
-  const kebaplar = document.querySelector(".wpb_wrapper-kebaplar"); 
-  const salatalar = document.getElementById("salatalar"); 
-  const dürümler = document.getElementById("dürümler"); 
-  const diyetmenu = document.querySelector(".wpb_wrapper-diyet-menü"); 
-  const cocukmenu = document.querySelector(".wpb_wrapper-cocuk-menusu"); 
-  const mesrubat = document.querySelector(".wpb_wrapper-icecekler"); 
-  const mezeler = document.querySelector(".wpb_wrapper-mezeler");
-  const fırın = document.querySelector(".wpb_wrapper-fırın"); 
-  const alkollu =document.querySelector(".wpb_wrapper-alkollu-icecekler")
+const all_btn = document.querySelector('#all');
+const kebap_btn = document.querySelector('#Kebaplar');
+const mezeler_btn = document.querySelector('#mezeler');
+const salatalar_btn = document.querySelector('#salatalar');
+const arasıcaklar_btn = document.querySelector('#arasıcaklar');
+const dürümler_btn = document.querySelector('#dürümler');
+const diyetmenu_btn = document.querySelector('#diyetmenu');
+const cocukmenu_btn = document.querySelector('#cocukmenu');
+const alkolluicecekler_btn = document.querySelector('#alkolluicecekler');
+const fırınurunleri_btn = document.querySelector('#fırınurunleri');
 
-  filterButtons.forEach(button => {
-      button.addEventListener("click", function() {
-          const filterValue = this.getAttribute("data-filter");
+// all buttons
 
-          arasıcaklar.style.display = filterValue === "ara-sıcaklar" ? "block" : "none";
-          kebaplar.style.display = filterValue === "kebaplar" ? "block" : "none";
-          mezeler.style.display = filterValue === "mezeler" ? "block" : "none";
-          salatalar.style.display = filterValue === "salatalar" ? "block" : "none";
-          dürümler.style.display = filterValue === "dürümler" ? "block" : "none";
-          diyetmenu.style.display = filterValue === "diyet-menu" ? "block" : "none";
-          cocukmenu.style.display = filterValue === "cocuk-menu" ? "block" : "none";
-          alkollu.style.display = filterValue === "alkollu-icecekler" ? "block" : "none";
-          fırın.style.display = filterValue === "fırın-urunleri" ? "block" : "none";
-          alkollu.style.display = filterValue === "alkollu-urunleri" ? "block" : "none";
-          mesrubat.style.display = filterValue === "mesrubat-urunleri" ? "block" : "none";
+const list_1 = document.querySelector('#list_1');
+const salatalar = document.querySelector('#salatalar_section');
+const mezeler = document.querySelector('#mezeler_section');
+const fırın = document.querySelector('#fırın_section');
+const kebaplar = document.querySelector('#kebaplar_section');
+const dürümler = document.querySelector('#dürümler_section');
+const diyetmenü = document.querySelector('#diyetmenü_section');
+const cocukmenusu = document.querySelector('#cocukmenusu_section');
+const Rakı = document.querySelector('#Rakı_section');
+const Şaraplar = document.querySelector('#Şaraplar_section');
+const Viski = document.querySelector('#Viski_section');
+const Biralar = document.querySelector('#Biralar_section');
+const İçecekler = document.querySelector('#İçecekler_section');
 
+// all sections
 
 
-          // Filter product items
-          productItems.forEach(item => {
-              if (filterValue === "all" || item.classList.contains(filterValue)) {
-                  item.style.display = "block";
-              } else {
-                  item.style.display = "none";
-              }
-          });
-      });
-  });
-});
+kebap_btn.addEventListener("click", () => {
+    if (kebaplar.classList.contains("hide")) {
+            kebaplar.classList.remove('hide')
+        } else {
+            kebaplar.classList.add('hide')
+        }
+})
+mezeler_btn.addEventListener("click", () => {
+    if (mezeler.classList.contains("hide")) {
+            mezeler.classList.remove('hide')
+        } else {
+            mezeler.classList.add('hide')
+        }
+})
+salatalar_btn.addEventListener("click", () => {
+    if (salatalar.classList.contains("hide")) {
+            salatalar.classList.remove('hide')
+        } else {
+            salatalar.classList.add('hide')
+        }
+})
+arasıcaklar_btn.addEventListener("click", () => {
+    if (list_1.classList.contains("hide")) {
+            list_1.classList.remove('hide')
+        } else {
+            list_1.classList.add('hide')
+        }
+})
+dürümler_btn.addEventListener("click", () => {
+    if (dürümler.classList.contains("hide")) {
+            dürümler.classList.remove('hide')
+        } else {
+            dürümler.classList.add('hide')
+        }
+})
+diyetmenu_btn.addEventListener("click", () => {
+    if (diyetmenü.classList.contains("hide")) {
+            diyetmenü.classList.remove('hide')
+        } else {
+            diyetmenü.classList.add('hide')
+        }
+})
+cocukmenu_btn.addEventListener("click", () => {
+    if (cocukmenusu.classList.contains("hide")) {
+            cocukmenusu.classList.remove('hide')
+        } else {
+            cocukmenusu.classList.add('hide')
+        }
+})
+alkolluicecekler_btn.addEventListener("click", () => {
+    if (Rakı.classList.contains("hide")) {
+            Rakı.classList.remove('hide')
+        } else {
+            Rakı.classList.add('hide')
+        }
+})
+fırınurunleri_btn.addEventListener("click", () => {
+    if (fırın.classList.contains("hide")) {
+            fırın.classList.remove('hide')
+        } else {
+            fırın.classList.add('hide')
+        }
+})

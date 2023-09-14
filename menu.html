@@ -289,6 +289,9 @@
             margin-top: 0;
             padding: 1.25em 2.375em
         }
+        .hide{
+            display: none !important;
+        }
     </style>
     <link rel='stylesheet' id='wc-block-vendors-style-css'
         href='https://dtkudil.wpenginepowered.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-style.css?ver=3.8.1'
@@ -3622,43 +3625,46 @@
                                             </div>
                                             -->
                                             <div class="">
-                                                <button class="filter-btn" data-filter="Kebaplar"> KEBAPLAR</button>
+                                                <button class="filter-btn" id="all"> All</button>
                                             </div>
                                             <div class="">
-                                                <button class="filter-btn" data-filter="mezeler">MEZELER</button>
+                                                <button class="filter-btn" id="Kebaplar"> KEBAPLAR</button>
+                                            </div>
+                                            <div class="">
+                                                <button class="filter-btn" id="mezeler">MEZELER</button>
 
                                             </div>
                                             <div class="">
-                                                <button class="filter-btn" data-filter="salatalar">SALATALAR</button>
+                                                <button class="filter-btn" id="salatalar">SALATALAR</button>
 
                                             </div>
                                             <div class="">
-                                                <button class="filter-btn" data-filter="ara-sıcaklar">ARA
+                                                <button class="filter-btn" id="arasıcaklar">ARA
                                                     SICAKLAR</button>
 
                                             </div>
 
                                             <div class="">
-                                                <button class="filter-btn" data-filter="dürümler">DÜRÜMLER</button>
+                                                <button class="filter-btn" id="dürümler">DÜRÜMLER</button>
 
                                             </div>
                                             <div class="">
-                                                <button class="filter-btn" data-filter="diyet-menu">DİYET MENÜ</button>
+                                                <button class="filter-btn" id="diyetmenu">DİYET MENÜ</button>
 
                                             </div>
                                             <div class="">
-                                                <button class="filter-btn" data-filter="cocuk-menu">ÇOCUK
+                                                <button class="filter-btn" id="cocukmenu">ÇOCUK
                                                     MENÜSÜ</button>
 
                                             </div>
 
                                             <div class="">
-                                                <button class="filter-btn" data-filter="alkollu-icecekler">ALKOLLÜ
+                                                <button class="filter-btn" id="alkolluicecekler">ALKOLLÜ
                                                     İÇECEKLER</button>
 
                                             </div>
                                             <div class="">
-                                                <button class="filter-btn" data-filter="fırın-urunleri">FIRIN
+                                                <button class="filter-btn" id="fırınurunleri">FIRIN
                                                     ÜRÜNLERİ</button>
 
                                             </div>
@@ -3669,7 +3675,7 @@
                                 <div class="vc_row wpb_row vc_row-fluid">
                                     <div class="wpb_column vc_column_container vc_col-sm-12">
                                         <div class="vc_column-inner ">
-                                            <div class="wpb_wrapper-ara-sıcaklar">
+                                            <div class="wpb_wrapper-ara-sıcaklar" id="list_1">
                                                 <div class="vc_row wpb_row vc_inner vc_row-fluid">
                                                     <div class="wpb_column vc_column_container vc_col-sm-12"
                                                         style=" text-align:center; ">
@@ -4036,7 +4042,7 @@
                     </section>
 
                     <div class="vc_row-full-width vc_clearfix"></div>
-                    <section class="vc_section dt_data_bully" id="salatalar">
+                    <section class="vc_section dt_data_bully" id="salatalar_section">
                         <div class="vc_row wpb_row vc_row-fluid">
                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                 <div class="vc_column-inner ">
@@ -4310,7 +4316,7 @@
                     </section>
 
                     <div class="vc_row-full-width vc_clearfix"></div>
-                    <section class="vc_section dt_data_bully">
+                    <section class="vc_section dt_data_bully" id="mezeler_section">
                         <div class="vc_row wpb_row vc_row-fluid">
                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                 <div class="vc_column-inner ">
@@ -4795,7 +4801,7 @@
                             </div>
                         </div>
                     </section>
-                    <section class="vc_section dt_data_bully">
+                    <section class="vc_section dt_data_bully" id="fırın_section">
                         <div class="vc_row wpb_row vc_row-fluid">
                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                 <div class="vc_column-inner ">
@@ -5221,7 +5227,7 @@
                             </div>
                         </div>
                     </section>
-                    <section class="vc_section dt_data_bully">
+                    <section class="vc_section dt_data_bully" id="kebaplar_section">
                         <div class="vc_row wpb_row vc_row-fluid">
                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                 <div class="vc_column-inner ">
@@ -5958,7 +5964,7 @@
                             </div>
                         </div>
                     </section>
-                    <section class="vc_section dt_data_bully " id="dürümler">
+                    <section class="vc_section dt_data_bully " id="dürümler_section">
                         <div class="vc_row wpb_row vc_row-fluid">
                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                 <div class="vc_column-inner ">
@@ -6233,7 +6239,7 @@
                             </div>
                         </div>
                     </section>
-                    <section class="vc_section dt_data_bully">
+                    <section class="vc_section dt_data_bully" id="diyetmenü">
                         <div class="vc_row wpb_row vc_row-fluid">
                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                 <div class="vc_column-inner ">
@@ -6330,7 +6336,7 @@
                             </div>
                         </div>
                     </section>
-                    <section class="vc_section dt_data_bully">
+                    <section class="vc_section dt_data_bully" id="cocukmenusu">
                         <div class="vc_row wpb_row vc_row-fluid">
                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                 <div class="vc_column-inner ">
@@ -6482,7 +6488,7 @@
                             </div>
                         </div>
                     </section>
-                    <section class="vc_section dt_data_bully">
+                    <section class="vc_section dt_data_bully" id="Rakı">
                         <div class="vc_row wpb_row vc_row-fluid">
                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                 <div class="vc_column-inner ">
@@ -6895,7 +6901,7 @@
                             </div>
                         </div>
                     </section>
-                    <section class="vc_section dt_data_bully">
+                    <section class="vc_section dt_data_bully" id="Şaraplar">
                         <div class="vc_row wpb_row vc_row-fluid">
                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                 <div class="vc_column-inner ">
@@ -6960,7 +6966,7 @@
                             </div>
                         </div>
                     </section>
-                    <section class="vc_section dt_data_bully">
+                    <section class="vc_section dt_data_bully" id="Viski">
                         <div class="vc_row wpb_row vc_row-fluid">
                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                 <div class="vc_column-inner ">
@@ -7233,7 +7239,7 @@
                             </div>
                         </div>
                     </section>
-                    <section class="vc_section dt_data_bully">
+                    <section class="vc_section dt_data_bully" id="Biralar">
                         <div class="vc_row wpb_row vc_row-fluid">
                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                 <div class="vc_column-inner ">
@@ -7364,7 +7370,7 @@
                             </div>
                         </div>
                     </section>
-                    <section class="vc_section dt_data_bully">
+                    <section class="vc_section dt_data_bully" id="İçecekler">
                         <div class="vc_row wpb_row vc_row-fluid">
                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                 <div class="vc_column-inner ">
