@@ -14,11 +14,9 @@ fetch(FULL_URL).then(res => console.log(res))
 fetch(FULL_URL)
   .then(res => res.text())
   .then(csvData => {
-    console.log(csvData, 'csvdatra')
+    
     let rows = csvData.split('\n');
-    console.log(rows, 'rows')
     let data = rows.map(row => row.split('","'));
-    console.log(data, 'data')
     // Extract headers from the first row
     const headers = data[0].map(header => header.replace(/"/g, ''));
 
@@ -49,11 +47,11 @@ fetch(FULL_URL)
       let foodPriceEl
       if(el) {
 
-       foodPriceEl = el.querySelector('.foodPrice'); // Use querySelector to get the first matching element
+       foodPriceEl = el.querySelector('.foodPrice'); 
       }
 
       if (foodPriceEl) {
-        foodPriceEl.textContent = `${item.food_price} `; // Now 'item.food_price' is a number
+        foodPriceEl.textContent = `${item.food_price} `; 
         console.log(item.id);
       }
     });
