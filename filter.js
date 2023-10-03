@@ -33,6 +33,20 @@ const İçecekler = document.querySelector('#İçecekler_section');
 
 const mainElement = document.querySelector('#main');
  
+list_1.classList.remove('hide')
+    kebaplar.classList.add('hide')
+    salatalar.classList.add('hide')
+    mezeler.classList.add('hide')
+    fırın.classList.add('hide')
+    dürümler.classList.add('hide')
+    diyetmenü.classList.add('hide')
+    cocukmenusu.classList.add('hide')
+    Rakı.classList.add('hide')
+    Şaraplar.classList.add('hide')
+    Viski.classList.add('hide')
+    Biralar.classList.add('hide')
+    İçecekler.classList.add('hide')
+
 all_btn.addEventListener("click", () => {
     list_1.classList.remove('hide')
     kebaplar.classList.remove('hide')
@@ -49,15 +63,41 @@ all_btn.addEventListener("click", () => {
     İçecekler.classList.remove('hide')
 })
 kebap_btn.addEventListener("click", () => {
+    list_1.classList.add('hide')
+    salatalar.classList.add('hide')
+    mezeler.classList.add('hide')
+    fırın.classList.add('hide')
+    dürümler.classList.add('hide')
+    diyetmenü.classList.add('hide')
+    cocukmenusu.classList.add('hide')
+    Rakı.classList.add('hide')
+    Şaraplar.classList.add('hide')
+    Viski.classList.add('hide')
+    Biralar.classList.add('hide')
+    İçecekler.classList.add('hide')
     if (kebaplar.classList.contains("hide")) {
             kebaplar.classList.remove('hide')
             kebaplar.scrollIntoView({ behavior: "smooth" });
+            
         } else {
             kebaplar.classList.add('hide')
             mainElement.scrollIntoView({ behavior: "smooth" });
         }
+        
 })
 mezeler_btn.addEventListener("click", () => {
+    list_1.classList.add('hide')
+    kebaplar.classList.add('hide')
+    salatalar.classList.add('hide')
+    fırın.classList.add('hide')
+    dürümler.classList.add('hide')
+    diyetmenü.classList.add('hide')
+    cocukmenusu.classList.add('hide')
+    Rakı.classList.add('hide')
+    Şaraplar.classList.add('hide')
+    Viski.classList.add('hide')
+    Biralar.classList.add('hide')
+    İçecekler.classList.add('hide')
     if (mezeler.classList.contains("hide")) {
             mezeler.classList.remove('hide')
             mezeler.scrollIntoView({ behavior: "smooth" });
@@ -67,6 +107,18 @@ mezeler_btn.addEventListener("click", () => {
         }
 })
 salatalar_btn.addEventListener("click", () => {
+    list_1.classList.add('hide')
+    kebaplar.classList.add('hide')
+    mezeler.classList.add('hide')
+    fırın.classList.add('hide')
+    dürümler.classList.add('hide')
+    diyetmenü.classList.add('hide')
+    cocukmenusu.classList.add('hide')
+    Rakı.classList.add('hide')
+    Şaraplar.classList.add('hide')
+    Viski.classList.add('hide')
+    Biralar.classList.add('hide')
+    İçecekler.classList.add('hide')
     if (salatalar.classList.contains("hide")) {
             salatalar.classList.remove('hide')
             salatalar.scrollIntoView({ behavior: "smooth" });
@@ -76,6 +128,18 @@ salatalar_btn.addEventListener("click", () => {
         }
 })
 arasıcaklar_btn.addEventListener("click", () => {
+    kebaplar.classList.add('hide')
+    salatalar.classList.add('hide')
+    mezeler.classList.add('hide')
+    fırın.classList.add('hide')
+    dürümler.classList.add('hide')
+    diyetmenü.classList.add('hide')
+    cocukmenusu.classList.add('hide')
+    Rakı.classList.add('hide')
+    Şaraplar.classList.add('hide')
+    Viski.classList.add('hide')
+    Biralar.classList.add('hide')
+    İçecekler.classList.add('hide')
     if (list_1.classList.contains("hide")) {
             list_1.classList.remove('hide')
             list_1.scrollIntoView({ behavior: "smooth" });
@@ -85,6 +149,18 @@ arasıcaklar_btn.addEventListener("click", () => {
         }
 })
 dürümler_btn.addEventListener("click", () => {
+    list_1.classList.add('hide')
+    kebaplar.classList.add('hide')
+    salatalar.classList.add('hide')
+    mezeler.classList.add('hide')
+    fırın.classList.add('hide')
+    diyetmenü.classList.add('hide')
+    cocukmenusu.classList.add('hide')
+    Rakı.classList.add('hide')
+    Şaraplar.classList.add('hide')
+    Viski.classList.add('hide')
+    Biralar.classList.add('hide')
+    İçecekler.classList.add('hide')
     if (dürümler.classList.contains("hide")) {
             dürümler.classList.remove('hide')
             dürümler.scrollIntoView({ behavior: "smooth" });
@@ -94,6 +170,18 @@ dürümler_btn.addEventListener("click", () => {
         }
 })
 diyetmenu_btn.addEventListener("click", () => {
+    list_1.classList.add('hide')
+    kebaplar.classList.add('hide')
+    salatalar.classList.add('hide')
+    mezeler.classList.add('hide')
+    fırın.classList.add('hide')
+    dürümler.classList.add('hide')
+    cocukmenusu.classList.add('hide')
+    Rakı.classList.add('hide')
+    Şaraplar.classList.add('hide')
+    Viski.classList.add('hide')
+    Biralar.classList.add('hide')
+    İçecekler.classList.add('hide')
     if (diyetmenü.classList.contains("hide")) {
             diyetmenü.classList.remove('hide')
             diyetmenü.scrollIntoView({ behavior: "smooth" });
@@ -103,6 +191,18 @@ diyetmenu_btn.addEventListener("click", () => {
         }
 })
 cocukmenu_btn.addEventListener("click", () => {
+    list_1.classList.add('hide')
+    kebaplar.classList.add('hide')
+    salatalar.classList.add('hide')
+    mezeler.classList.add('hide')
+    fırın.classList.add('hide')
+    dürümler.classList.add('hide')
+    diyetmenü.classList.add('hide')
+    Rakı.classList.add('hide')
+    Şaraplar.classList.add('hide')
+    Viski.classList.add('hide')
+    Biralar.classList.add('hide')
+    İçecekler.classList.add('hide')
     if (cocukmenusu.classList.contains("hide")) {
             cocukmenusu.classList.remove('hide')
             cocukmenusu.scrollIntoView({ behavior: "smooth" });
@@ -112,6 +212,18 @@ cocukmenu_btn.addEventListener("click", () => {
         }
 })
 raki_btn.addEventListener("click", () => {
+    list_1.classList.add('hide')
+    kebaplar.classList.add('hide')
+    salatalar.classList.add('hide')
+    mezeler.classList.add('hide')
+    fırın.classList.add('hide')
+    dürümler.classList.add('hide')
+    diyetmenü.classList.add('hide')
+    cocukmenusu.classList.add('hide')
+    Şaraplar.classList.add('hide')
+    Viski.classList.add('hide')
+    Biralar.classList.add('hide')
+    İçecekler.classList.add('hide')
     if (Rakı.classList.contains("hide")) {
             Rakı.classList.remove('hide')
             Rakı.scrollIntoView({ behavior: "smooth" });
@@ -121,6 +233,18 @@ raki_btn.addEventListener("click", () => {
         }
 })
 viski_btn.addEventListener("click", () => {
+    list_1.classList.add('hide')
+    kebaplar.classList.add('hide')
+    salatalar.classList.add('hide')
+    mezeler.classList.add('hide')
+    fırın.classList.add('hide')
+    dürümler.classList.add('hide')
+    diyetmenü.classList.add('hide')
+    cocukmenusu.classList.add('hide')
+    Rakı.classList.add('hide')
+    Şaraplar.classList.add('hide')
+    Biralar.classList.add('hide')
+    İçecekler.classList.add('hide')
     if (Viski.classList.contains("hide")) {
             Viski.classList.remove('hide')
             Viski.scrollIntoView({ behavior: "smooth" });
@@ -130,6 +254,18 @@ viski_btn.addEventListener("click", () => {
         }
 })
 biralar_btn.addEventListener("click", () => {
+    list_1.classList.add('hide')
+    kebaplar.classList.add('hide')
+    salatalar.classList.add('hide')
+    mezeler.classList.add('hide')
+    fırın.classList.add('hide')
+    dürümler.classList.add('hide')
+    diyetmenü.classList.add('hide')
+    cocukmenusu.classList.add('hide')
+    Rakı.classList.add('hide')
+    Şaraplar.classList.add('hide')
+    Viski.classList.add('hide')
+    İçecekler.classList.add('hide')
     if (Biralar.classList.contains("hide")) {
             Biralar.classList.remove('hide')
             Biralar.scrollIntoView({ behavior: "smooth" });
@@ -138,6 +274,18 @@ biralar_btn.addEventListener("click", () => {
         }
 })
 icecekler_btn.addEventListener("click", () => {
+    list_1.classList.add('hide')
+    kebaplar.classList.add('hide')
+    salatalar.classList.add('hide')
+    mezeler.classList.add('hide')
+    fırın.classList.add('hide')
+    dürümler.classList.add('hide')
+    diyetmenü.classList.add('hide')
+    cocukmenusu.classList.add('hide')
+    Rakı.classList.add('hide')
+    Şaraplar.classList.add('hide')
+    Viski.classList.add('hide')
+    Biralar.classList.add('hide')
     if (İçecekler.classList.contains("hide")) {
             İçecekler.classList.remove('hide')
             İçecekler.scrollIntoView({ behavior: "smooth" });
@@ -146,6 +294,18 @@ icecekler_btn.addEventListener("click", () => {
         }
 })
 fırınurunleri_btn.addEventListener("click", () => {
+    list_1.classList.add('hide')
+    kebaplar.classList.add('hide')
+    salatalar.classList.add('hide')
+    mezeler.classList.add('hide')
+    dürümler.classList.add('hide')
+    diyetmenü.classList.add('hide')
+    cocukmenusu.classList.add('hide')
+    Rakı.classList.add('hide')
+    Şaraplar.classList.add('hide')
+    Viski.classList.add('hide')
+    Biralar.classList.add('hide')
+    İçecekler.classList.add('hide')
     if (fırın.classList.contains("hide")) {
             fırın.classList.remove('hide')
             fırın.scrollIntoView({ behavior: "smooth" });
@@ -154,6 +314,18 @@ fırınurunleri_btn.addEventListener("click", () => {
         }
 })
 saraplar_btn.addEventListener("click", () => {
+    list_1.classList.add('hide')
+    kebaplar.classList.add('hide')
+    salatalar.classList.add('hide')
+    mezeler.classList.add('hide')
+    fırın.classList.add('hide')
+    dürümler.classList.add('hide')
+    diyetmenü.classList.add('hide')
+    cocukmenusu.classList.add('hide')
+    Rakı.classList.add('hide')
+    Viski.classList.add('hide')
+    Biralar.classList.add('hide')
+    İçecekler.classList.add('hide')
     if (Şaraplar.classList.contains("hide")) {
             Şaraplar.classList.remove('hide')
             Şaraplar.scrollIntoView({ behavior: "smooth" });
