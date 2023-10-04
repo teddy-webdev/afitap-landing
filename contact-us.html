@@ -5160,40 +5160,11 @@
                             <ul></ul>
                           </div>
                           <form
-                            action="/contact-us/#wpcf7-f4-p8775-o1"
                             method="post"
                             class="wpcf7-form init"
-                            novalidate="novalidate"
-                            data-status="init"
+                            id="wf-form-Styleguide-Form"
+                            name="wf-form-Styleguide-Form"
                           >
-                            <div style="display: none">
-                              <input type="hidden" name="_wpcf7" value="4" />
-                              <input
-                                type="hidden"
-                                name="_wpcf7_version"
-                                value="5.3.2"
-                              />
-                              <input
-                                type="hidden"
-                                name="_wpcf7_locale"
-                                value="en_US"
-                              />
-                              <input
-                                type="hidden"
-                                name="_wpcf7_unit_tag"
-                                value="wpcf7-f4-p8775-o1"
-                              />
-                              <input
-                                type="hidden"
-                                name="_wpcf7_container_post"
-                                value="8775"
-                              />
-                              <input
-                                type="hidden"
-                                name="_wpcf7_posted_data_hash"
-                                value=""
-                              />
-                            </div>
                             <div class="vc_row wpb_row vc_row-fluid">
                               <div
                                 class="wpb_column vc_column_container vc_col-sm-6"
@@ -5207,12 +5178,10 @@
                                       >
                                         <input
                                           type="text"
-                                          name="text-538"
+                                          name="fullName"
                                           value=""
                                           size="40"
                                           class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                          aria-required="true"
-                                          aria-invalid="false"
                                           placeholder="İsminiz"
                                         />
                                       </span>
@@ -5233,12 +5202,10 @@
                                       >
                                         <input
                                           type="email"
-                                          name="email-259"
+                                          name="email"
                                           value=""
                                           size="40"
                                           class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
-                                          aria-required="true"
-                                          aria-invalid="false"
                                           placeholder="Email Addresi"
                                         />
                                       </span>
@@ -5263,12 +5230,10 @@
                                       >
                                         <input
                                           type="text"
-                                          name="Subject"
+                                          name="subject"
                                           value=""
                                           size="40"
                                           class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                          aria-required="true"
-                                          aria-invalid="false"
                                           placeholder="Konu"
                                         />
                                       </span>
@@ -5292,7 +5257,7 @@
                                         class="wpcf7-form-control-wrap textarea-657"
                                       >
                                         <textarea
-                                          name="textarea-657"
+                                          name="message"
                                           cols="40"
                                           rows="10"
                                           class="wpcf7-form-control wpcf7-textarea"
@@ -5307,19 +5272,22 @@
                                     >
                                       <span class="vc_empty_space_inner"></span>
                                     </div>
-                                    <input
-                                      type="submit"
-                                      value="Gönder"
-                                      class="wpcf7-form-control wpcf7-submit"
-                                    />
+                                    <input id="form-submit-contact" type="submit" value="Send Message" class="button primary max-width-full w-button">
                                   </div>
                                 </div>
                               </div>
                             </div>
-                            <div
-                              class="wpcf7-response-output"
-                              aria-hidden="true"
-                            ></div>
+                            <div class="form-message-success w-form-done hide">
+                              <div>
+                                Thank you! Your submission has been received!
+                              </div>
+                            </div>
+                            <div class="form-message-error w-form-fail hide">
+                              <div>
+                                Oops! Something went wrong while submitting the
+                                form.
+                              </div>
+                            </div>
                           </form>
                         </div>
                         <div
