@@ -1,3 +1,20 @@
 #header-9102 p{
     margin-bottom: 0px !important;
 }
+.hide{
+    display: none !important;
+}
+
+.w-form-done{
+    background-color: #eafac0;
+    border: 1px solid #b1cf67;
+    color: #7ba411;
+    margin: 20px 0 0;
+    padding: 15px 15px 15px 45px;
+}
+.w-form-fail{
+    background-color: #ffdede;
+    border: 1px solid #ffdede;
+    margin: 20px 0 0;
+    padding: 15px 15px 15px 45px;
+}
