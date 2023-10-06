@@ -1,0 +1,23 @@
+.langList {
+    position: fixed;
+    top: 5rem;
+    background: #001659;
+    padding-top: 2rem;
+    width: 4rem;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    gap: 0.75rem;
+  }
+  .langList a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: azure !important;
+  }

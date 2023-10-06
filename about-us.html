@@ -1048,13 +1048,7 @@
       type="text/css"
       media="all"
     />
-    <link
-      rel="stylesheet"
-      id="kudil-custom-css"
-      href="https://dtkudil.wpenginepowered.com/wp-content/themes/kudil/css/custom.css?ver=2.1"
-      type="text/css"
-      media="all"
-    />
+    <link rel="stylesheet" href="./assets/css/custom.css" />
     <style id="kudil-custom-inline-css" type="text/css">
       .dt-sc-menu-sorting a {
         color: rgba(197, 157, 95, 0.6);
@@ -5896,7 +5890,7 @@
                               </li>
                               <li
                                 id="menu-item-8716"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8716 dt-menu-item-8716 current_page_item current-menu-item"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8716 dt-menu-item-8716"
                               >
                                 <a
                                   href="about-us.html"
@@ -5936,7 +5930,9 @@
                           class="wpb_text_column wpb_content_element aligncenter white"
                         >
                           <div class="wpb_wrapper">
-                            <p><a href="reservation.html">Rezervasyon </a></p>
+                            <a style="color: #c59d5f" href="reservation.html"
+                              >Rezervasyon
+                            </a>
                           </div>
                         </div>
                         <ul
@@ -5963,11 +5959,28 @@
                             </a>
                           </li>
                           <li class="facebook">
-                            <a href="#" title="Facebook" target="_self">
+                            <a
+                              href="https://www.facebook.com/afitapkebap/"
+                              title="Facebook"
+                              target="_self"
+                            >
                               <span class="dt-icon-default">
                                 <span></span>
                               </span>
                               <i></i>Facebook
+                              <span class="dt-icon-hover"> <span></span> </span>
+                            </a>
+                          </li>
+                          <li class="instagram">
+                            <a
+                              href="https://www.facebook.com/afitapkebap/"
+                              title="Facebook"
+                              target="_self"
+                            >
+                              <span class="dt-icon-default">
+                                <span></span>
+                              </span>
+                              <i class="ri-instagram-line"></i>Facebook
                               <span class="dt-icon-hover"> <span></span> </span>
                             </a>
                           </li>
@@ -5977,17 +5990,45 @@
                               title="tripadvisor"
                               target="_blank"
                               onmouseover="this.querySelector('img').src='assets/images/icons8-tripadvisor-50-hover.png';
-																			this.querySelector('img').style.transform = 'scale(0.9)';
-																			this.querySelector('img').style.transition = 'transform 0.3s ease-in-out';"
+                                                    this.querySelector('img').style.transform = 'scale(0.9)';
+                                                    this.querySelector('img').style.transition = 'transform 0.3s ease-in-out';"
                               onmouseout="this.querySelector('img').src='assets/images/icons8-tripadvisor-50.png';
-																		   this.querySelector('img').style.transform = 'scale(1)';
-																		   this.querySelector('img').style.transition = 'transform 0.3s ease-in-out';"
+                                                   this.querySelector('img').style.transform = 'scale(1)';
+                                                   this.querySelector('img').style.transition = 'transform 0.3s ease-in-out';"
                             >
                               <img
                                 src="assets/images/icons8-tripadvisor-50.png"
                                 alt="Google Plus"
                               />
                             </a>
+                          </li>
+                          <li style="padding-bottom: 0.5rem">
+                            <div
+                              class="icon-1x1-small w-embed"
+                              onclick="toggleLangBtn()"
+                              data-translate="lang_icon"
+                            >
+                              <img
+                                id="currenLang"
+                                src="https://flagcdn.com/48x36/gb.png"
+                                style="width: 1.25rem; height: 1rem"
+                                alt=""
+                              />
+                            </div>
+                            <div class="langList hide" id="lang">
+                              <a href="?lang=tr">
+                                <img
+                                  src="https://flagcdn.com/48x36/tr.png"
+                                  style="width: 1.25rem; height: 1rem"
+                                  alt=""
+                              /></a>
+                              <a href="?lang=en">
+                                <img
+                                  src="https://flagcdn.com/48x36/gb.png"
+                                  style="width: 1.25rem; height: 1rem"
+                                  alt=""
+                              /></a>
+                            </div>
                           </li>
                         </ul>
                       </div>
@@ -6694,6 +6735,7 @@
       <!-- **Inner Wrapper - End** -->
     </div>
     <!-- **Wrapper - End** -->
+    <script src="./assets/scripts/translation.js"></script>
     <!-- Instagram Feed JS -->
     <script type="text/javascript">
       var sbiajaxurl = "https://dtkudil.wpengine.com/wp-admin/admin-ajax.php";
