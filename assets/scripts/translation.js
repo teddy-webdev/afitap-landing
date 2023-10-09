@@ -177,11 +177,15 @@ function getParameterByName(name, url = window.location.href) {
 function setContactFormPlaceHolders(lang) {
   // Replace this code with your desired translations
   // Example:
-  // if (lang === "tr") {
-  //   document.querySelector('input[name="fullName"]').placeholder = "Enter your Name";
-  //   document.querySelector('input[name="email"]').placeholder = "Enter your Email";
-  //   // ...
-  // }
+  if (lang === "tr") {
+    document.querySelector('input[name="dt_mc_emailid"]').placeholder =
+      "E-posta adresinizi girin";
+
+  }
+  else {
+    document.querySelector('input[name="dt_mc_emailid"]').placeholder = "Enter your Email";
+
+  }
 }
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -191,7 +195,7 @@ document.addEventListener("DOMContentLoaded", function () {
     i18nInstance.setLang(lang);
   }
   changeLabels();
-  // setContactFormPlaceHolders(window.localStorage.getItem("language") || "en");
+  setContactFormPlaceHolders(window.localStorage.getItem("language") || "en");
 
   // document.querySelector('.dropdownMenuButton').textContent = (window.localStorage.getItem("language") || "en").toUpperCase();
 });
@@ -200,7 +204,7 @@ document.getElementById("lang").addEventListener("click", function (e) {
   if (e.target.tagName === "A") {
     const lang = e.target.href.slice(-2);
     i18nInstance.setLang(lang);
-    // setContactFormPlaceHolders(lang);
+    setContactFormPlaceHolders(lang);
     // document.querySelector('.dropdownMenuButton').textContent = (window.localStorage.getItem("language") || "en").toUpperCase();
 
     const langQueryParam = getParameterByName("lang");
