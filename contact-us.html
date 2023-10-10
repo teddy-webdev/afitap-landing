@@ -119,7 +119,7 @@
               : e.wpemoji && e.twemoji && (c(e.twemoji), c(e.wpemoji)));
       })(window, document, window._wpemojiSettings);
     </script>
-    <!-- <link rel="stylesheet" href="./assets/css/custom.css" /> -->
+    <link rel="stylesheet" href="./assets/css/custom.css" />
     <link rel="stylesheet" href="./assets/css/neo.css" />
     <style type="text/css">
       img.wp-smiley,
@@ -4957,6 +4957,7 @@
                                 <a
                                   href="index.html"
                                   class="item-has-icon icon-position-left"
+                                  data-translate="home_nav"
                                   ><span>Ana sayfa</span></a
                                 >
                               </li>
@@ -4968,7 +4969,9 @@
                                 <a
                                   href="menu.html"
                                   class="item-has-icon icon-position-left"
-                                  ><span>Menu</span></a
+                                  ><span data-translate="menu_nav"
+                                    >Menu</span
+                                  ></a
                                 >
                               </li>
                               <li
@@ -4978,7 +4981,9 @@
                                 <a
                                   href="about-us.html"
                                   class="item-has-icon icon-position-left"
-                                  ><span>Hakkımızda</span></a
+                                  ><span data-translate="about_us"
+                                    >Hakkımızda</span
+                                  ></a
                                 >
                               </li>
                               <li
@@ -4988,7 +4993,9 @@
                                 <a
                                   href="contact-us.html"
                                   class="item-has-icon icon-position-left"
-                                  ><span>Bize ulaşın</span></a
+                                  ><span data-translate="contact"
+                                    >Bize ulaşın</span
+                                  ></a
                                 >
                               </li>
                             </ul>
@@ -5004,7 +5011,8 @@
                             class="menu-trigger menu-trigger-icon"
                             data-menu="main-menu"
                           >
-                            <i class="fa fa-bars"></i><span>Menu</span>
+                            <i class="fa fa-bars"></i
+                            ><span data-translate="menu_nav">Menu</span>
                           </div>
                           <div class="mobile-menu" data-menu="main-menu"></div>
                           <div class="overlay"></div>
@@ -5013,7 +5021,10 @@
                           class="wpb_text_column wpb_content_element aligncenter white"
                         >
                           <div class="wpb_wrapper">
-                            <a style="color: #c59d5f" href="reservation.html"
+                            <a
+                              style="color: #c59d5f"
+                              href="reservation.html"
+                              data-translate="reservation"
                               >Rezervasyon
                             </a>
                           </div>
@@ -5140,12 +5151,12 @@
             <div class="container">
               <div class="main-title-section">
                 <h2 class="main-subtitle-text">Sizin için buradayız</h2>
-                <h1>Bize Ulaşın</h1>
+                <h1 data-translate="main_t">Bize Ulaşın</h1>
               </div>
               <div class="breadcrumb">
-                <a href="index.html">Ana Sayfa</a>
+                <a href="index.html" data-translate="home_nav">Ana Sayfa</a>
                 <span class="fa fa-coffee"></span>
-                <span class="current">Bize Ulaşın</span>
+                <span class="current" data-translate="contact">Bize Ulaşın</span>
               </div>
             </div>
           </section>
@@ -5165,7 +5176,7 @@
               >
                 <!-- <div class="vc_row-full-width vc_clearfix"></div> -->
                 <div class="dt-sc-title with-image with-sub-title aligncenter">
-                  <h4 style="color: #c59d5f">Bize geri dönüş yapın</h4>
+                  <h4 style="color: #c59d5f" data-translate="up_text">Bize geri dönüş yapın</h4>
                   <!-- <h2>Get In Touch</h2> -->
                   <!-- <p>
                                         <img width="50" height="50" src="https://dtkudil.wpenginepowered.com/wp-content/uploads/2018/04/flower-decor-2.png" class="attachment-full" alt="flower-decor-2" decoding="async" loading="lazy"/>
@@ -5218,7 +5229,6 @@
                                         <input
                                           type="text"
                                           name="fullName"
-                                          value=""
                                           size="40"
                                           class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                           placeholder="İsminiz"
@@ -5242,7 +5252,6 @@
                                         <input
                                           type="email"
                                           name="email"
-                                          value=""
                                           size="40"
                                           class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
                                           placeholder="Email Addresi"
@@ -5311,18 +5320,24 @@
                                     >
                                       <span class="vc_empty_space_inner"></span>
                                     </div>
-                                    <button id="contact_button" class="button primary max-width-full w-button">Send Message</button>
+                                    <button
+                                      id="contact_button"
+                                      class="button primary max-width-full w-button"
+                                      data-translate="send_msg"
+                                    >
+                                      Send Message
+                                    </button>
                                   </div>
                                 </div>
                               </div>
                             </div>
                             <div class="form-message-success w-form-done hide">
-                              <div>
+                              <div data-translate="thx">
                                 Thank you! Your submission has been received!
                               </div>
                             </div>
                             <div class="form-message-error w-form-fail hide">
-                              <div>
+                              <div data-translate="oops">
                                 Oops! Something went wrong while submitting the
                                 form.
                               </div>
@@ -5355,7 +5370,7 @@
                         >
                           <div class="vc_column-inner">
                             <div class="wpb_wrapper">
-                              <div class="dt-sc-contact-info type4">
+                              <div class="dt-sc-contact-info type4" data-translate="c_addr">
                                 <span class="pe-icon pe-map-marker"></span>
                                 <h6>Lokasyonumuz</h6>
                                 Osman Örek Bulvarı, 15 Kasım Sokak, Konce &
@@ -5370,10 +5385,12 @@
                         >
                           <div class="vc_column-inner">
                             <div class="wpb_wrapper">
-                              <div class="dt-sc-contact-info type4">
+                              <div class="dt-sc-contact-info type4" data-translate="c_rez">
                                 <span class="pe-icon pe-phone"></span>
                                 <h6>Bizi Arayın</h6>
-                                <a href="tel:+90 533 888 8786">Rezervasyon : +90 533 888 8786</a>
+                                <a href="tel:+90 533 888 8786"
+                                  >Rezervasyon : +90 533 888 8786</a
+                                >
                               </div>
                             </div>
                           </div>
@@ -5383,13 +5400,14 @@
                         >
                           <div class="vc_column-inner">
                             <div class="wpb_wrapper">
-                              <div class="dt-sc-contact-info type4">
+                              <div class="dt-sc-contact-info type4" data-translate="c_mail">
                                 <span class="pe-icon pe-mail"></span>
                                 <h6>Mail Atın</h6>
-                                <!-- Email : <a href="#" target="_blank" rel="noopener">admin@example.com</a> -->
-
                                 Email :
-                                <a href="mailto:info@afitapkebap.com" target="_blank" rel="noopener"
+                                <a
+                                  href="mailto:info@afitapkebap.com"
+                                  target="_blank"
+                                  rel="noopener"
                                   >info@afitapkebap.com</a
                                 >
                               </div>
@@ -5401,7 +5419,7 @@
                         >
                           <div class="vc_column-inner">
                             <div class="wpb_wrapper">
-                              <div class="dt-sc-contact-info type4">
+                              <div class="dt-sc-contact-info type4" data-translate="c_prog">
                                 <span class="pe-icon pe-timer"></span>
                                 <h6>Çalışma Saatleri</h6>
                                 Pazartesi – Pazar
@@ -5427,7 +5445,7 @@
                           class="wpb_text_column wpb_content_element dt-sc-intro-text"
                         >
                           <div class="wpb_wrapper">
-                            <p>
+                            <p data-translate="c_desc">
                               Afitap Kebap'ın menüsü zengin ve çeşitlidir.
                               Geleneksel Türk kebaplarının yanı sıra, özel
                               mezeler, salatalar, ara sıcaklar, tavuk kebapları,
@@ -5442,7 +5460,7 @@
                             </p>
                           </div>
                         </div>
-                        <h4 class="dt-sc-intro-title">Bizi Takip Edin</h4>
+                        <h4 class="dt-sc-intro-title" data-translate="our_socials">Bizi Takip Edin</h4>
                         <ul
                           id="dt-1524203121765-32f621f7-38a6"
                           class="dt-sc-sociable large center"
@@ -5549,53 +5567,61 @@
             >
               <div class="wpb_column vc_column_container vc_col-sm-12">
                 <div class="vc_column-inner">
-                  <!--
-                                <div class="wpb_wrapper">
-                                    <div id="responsive_map-846066242" class="responsive-map"
-                                        style="height:625px;width:100%;"></div>
-                                        <script type="text/javascript">
-                                            jQuery(document).ready(function ($) {
-                                        
-                                                var mapdiv = jQuery("#responsive_map-712870978");
-                                                var map = mapdiv.gMap({
-                                                    maptype: google.maps.MapTypeId.ROADMAP,
-                                                    zoom: 17,
-                                                    latitude: 35.33370000000000032969182939268648624420166015625, // Afitap Kebap latitude
-                                                    longitude: 33.32820000000000248974174610339105129241943359375, // Afitap Kebap longitude
-                                                    streetViewControl: true,
-                                                    mapTypeControl: true,
-                                                    zoomControl: true,
-                                                    scaleControl: true,
-                                                    scrollwheel: false,
-                                                    draggable: true,
-                                                    styles: [{ "stylers": [{ "featureType": "all" }] }],
-                                                    markers: [{
-                                                        flat: true,
-                                                        key: "1",
-                                                        latitude: "35.33370000000000032969182939268648624420166015625",
-                                                        longitude: "33.32820000000000248974174610339105129241943359375",
-                                                        icon: { image: "https://dtkudil.wpengine.com/wp-content/uploads/2018/04/pin.png" },
-                                                        html: "<strong>Afitap Kebap Restoran</strong><br>Osman Örek Avenue, 15 Kasım Street, Konce & Hocanın Apt. No:9-10, Doğanköy,<br>Kyrenia – CYPRUS<br><a href='mailto:info@afitapkebap.com'>info@afitapkebap.com</a><br><a class='uk-link-reset' href='tel:+905338888786'>+90 533 888 87 86</a>"
-                                                    }],
-                                                    panControl: true,
-                                                    overviewMapControl: true,
-                                                });
-                                        
-                                                // Add marker click event
-                                                google.maps.event.addListener(map, 'click', function (event) {
-                                                    mapdiv.gMap('openInfoWindow', {
-                                                        content: event.marker.options.html,
-                                                        latitude: event.marker.getPosition().lat(),
-                                                        longitude: event.marker.getPosition().lng(),
-                                                    });
-                                                });
-                                            });
-                                        </script>
-                                        
-                                        
-                                        
-                                </div>
-                                -->
+                  <div class="wpb_wrapper">
+                    <div
+                      id="responsive_map-712870978"
+                      class="responsive-map"
+                      style="height: 625px; width: 100%"
+                    ></div>
+                    <script type="text/javascript">
+                      jQuery(document).ready(function ($) {
+                        var mapdiv = jQuery("#responsive_map-712870978");
+                        var map = mapdiv.gMap({
+                          maptype: google.maps.MapTypeId.ROADMAP,
+                          zoom: 17,
+                          latitude: 35.33370000000000032969182939268648624420166015625, // Afitap Kebap latitude
+                          longitude: 33.32820000000000248974174610339105129241943359375, // Afitap Kebap longitude
+                          streetViewControl: true,
+                          mapTypeControl: true,
+                          zoomControl: true,
+                          scaleControl: true,
+                          scrollwheel: false,
+                          draggable: true,
+                          styles: [{ stylers: [{ featureType: "all" }] }],
+                          markers: [
+                            {
+                              flat: true,
+                              key: "1",
+                              latitude:
+                                "35.33370000000000032969182939268648624420166015625",
+                              longitude:
+                                "33.32820000000000248974174610339105129241943359375",
+                              icon: {
+                                image:
+                                  "https://dtkudil.wpengine.com/wp-content/uploads/2018/04/pin.png",
+                              },
+                              html: "<strong>Afitap Kebap Restoran</strong><br>Osman Örek Avenue, 15 Kasım Street, Konce & Hocanın Apt. No:9-10, Doğanköy,<br>Kyrenia – CYPRUS<br><a href='mailto:info@afitapkebap.com'>info@afitapkebap.com</a><br><a class='uk-link-reset' href='tel:+905338888786'>+90 533 888 87 86</a>",
+                            },
+                          ],
+                          panControl: true,
+                          overviewMapControl: true,
+                        });
+
+                        // Add marker click event
+                        google.maps.event.addListener(
+                          map,
+                          "click",
+                          function (event) {
+                            mapdiv.gMap("openInfoWindow", {
+                              content: event.marker.options.html,
+                              latitude: event.marker.getPosition().lat(),
+                              longitude: event.marker.getPosition().lng(),
+                            });
+                          }
+                        );
+                      });
+                    </script>
+                  </div>
                 </div>
               </div>
             </div>
@@ -5620,7 +5646,9 @@
                       >
                         <div class="vc_column-inner vc_custom_1537176591307">
                           <div class="wpb_wrapper">
-                            <h6>BİZİ TAKİP EDİN :</h6>
+                            <h6 data-translate="our_socials">
+                              BİZİ TAKİP EDİN :
+                            </h6>
                             <ul
                               id="dt-1523604669584-c5835bdf-bfd0"
                               class="dt-sc-sociable small center"
@@ -5667,11 +5695,11 @@
                                   title="tripadvisor"
                                   target="_blank"
                                   onmouseover="this.querySelector('img').src='assets/images/icons8-tripadvisor-50-hover.png';
-																			this.querySelector('img').style.transform = 'scale(0.9)';
-																			this.querySelector('img').style.transition = 'transform 0.3s ease-in-out';"
+																					this.querySelector('img').style.transform = 'scale(0.9)';
+																					this.querySelector('img').style.transition = 'transform 0.3s ease-in-out';"
                                   onmouseout="this.querySelector('img').src='assets/images/icons8-tripadvisor-50.png';
-																		   this.querySelector('img').style.transform = 'scale(1)';
-																		   this.querySelector('img').style.transition = 'transform 0.3s ease-in-out';"
+																				   this.querySelector('img').style.transform = 'scale(1)';
+																				   this.querySelector('img').style.transition = 'transform 0.3s ease-in-out';"
                                 >
                                   <img
                                     src="assets/images/icons8-tripadvisor-50.png"
@@ -5693,12 +5721,11 @@
                               id="dt-1523535457383-8bb533f7-11da"
                               class="dt-logo-container logo-align-center"
                             >
-                              <a href="" rel="home">
-                                <img
+                              <a href="index.html" rel="home"
+                                ><img
                                   src="assets\images\afitap-logo.png"
-                                  alt=""
-                                />
-                              </a>
+                                  alt="logo"
+                              /></a>
                             </div>
                           </div>
                         </div>
@@ -5717,10 +5744,16 @@
                                   type="email"
                                   name="dt_mc_emailid"
                                   required="required"
-                                  placeholder="Email Addresi yazınız"
-                                />
-                                
-                                <input
+                                  placeholder="Email Addresi"
+                                /><input
+                                  type="hidden"
+                                  name="dt_mc_apikey"
+                                  value=""
+                                /><input
+                                  type="hidden"
+                                  name="dt_mc_listid"
+                                  value=""
+                                /><input
                                   type="submit"
                                   name="mc_submit"
                                   value=""
@@ -5760,10 +5793,12 @@
                           <div class="wpb_wrapper">
                             <div
                               class="dt-sc-contact-info type8 no-icon dt-sc-rightside-border"
+                              data-translate="our_address"
                             >
                               <h6>Address</h6>
                               Osman Örek Bulvarı, 15 Kasım Sokak, Konce &
-                              Hocanın Apt. No:9-10,<br />Girne - KKTC
+                              Hocanın Apt. No:9-10,,<br />
+                              Girne – KKTC
                             </div>
                           </div>
                         </div>
@@ -5774,10 +5809,13 @@
                       >
                         <div class="vc_column-inner">
                           <div class="wpb_wrapper">
-                            <div class="dt-sc-contact-info type3 aligncenter">
+                            <div
+                              class="dt-sc-contact-info type3 aligncenter"
+                              data-translate="our_programs"
+                            >
                               <h6>Açılış Saatleri</h6>
                               <h4>Pazartesi - Pazar</h4>
-                              <strong> 12:00 – 02:00<br /> </strong>
+                              <strong>12:00 – 02:00<br /></strong>
                             </div>
                           </div>
                         </div>
@@ -5791,11 +5829,14 @@
                             <div
                               class="dt-sc-contact-info type8 no-icon dt-sc-leftside-border"
                             >
-                              <h6>Bize Ulaşın</h6>
-                              <a href="mailto:info@afitapkebap.com"
+                              <h6 data-translate="our_contact">Bize Ulaşın</h6>
+                              <a href="mailto:example@example.com"
                                 >info@afitapkebap.com</a
                               >
-                              <br />+90 533 888 8786
+                              <br />
+                              <a href="tel:+90 533 888 8786">
+                                +90 533 888 8786</a
+                              >
                             </div>
                           </div>
                         </div>
@@ -5827,14 +5868,13 @@
                     >
                       <div class="wpb_wrapper">
                         <p>
-                          © 2018
+                          © 2023
                           <a
                             href="https://cypruscodes.com/"
                             target="_blank"
                             rel="noopener noreferrer"
                             >CyprusCodes</a
-                          >
-                          . ALL RIGHTS RESERVED.
+                          >. ALL RIGHTS RESERVED.
                         </p>
                       </div>
                     </div>
@@ -5850,7 +5890,7 @@
       <!-- **Inner Wrapper - End** -->
     </div>
     <!-- **Wrapper - End** -->
-    <script src="./assets/scripts/translation.js"></script>
+    <script src="./assets/scripts/contact_translation.js"></script>
     <script src="contact.js"></script>
     <!-- Instagram Feed JS -->
     <script type="text/javascript">
