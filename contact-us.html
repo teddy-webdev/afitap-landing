@@ -5212,8 +5212,8 @@
                           <form
                             method="post"
                             class="wpcf7-form init"
-                            id="wf-form-Styleguide-Form"
-                            name="wf-form-Styleguide-Form"
+                            name="contactform" 
+                            id="contactform"
                           >
                             <div class="vc_row wpb_row vc_row-fluid">
                               <div
@@ -5321,6 +5321,7 @@
                                       <span class="vc_empty_space_inner"></span>
                                     </div>
                                     <button
+                                      type="submit"
                                       id="contact_button"
                                       class="button primary max-width-full w-button"
                                       data-translate="send_msg"
@@ -5736,8 +5737,8 @@
                             <div class="dt-sc-newsletter-section type7">
                               <form
                                 class="dt-sc-subscribe-frm"
-                                name="frmsubscribe"
-                                action="#"
+                                 name="subform" 
+                                id="subform"
                                 method="post"
                               >
                                 <input
@@ -5745,15 +5746,8 @@
                                   name="dt_mc_emailid"
                                   required="required"
                                   placeholder="Email Addresi"
-                                /><input
-                                  type="hidden"
-                                  name="dt_mc_apikey"
-                                  value=""
-                                /><input
-                                  type="hidden"
-                                  name="dt_mc_listid"
-                                  value=""
-                                /><input
+                                />
+                                <input
                                   type="submit"
                                   name="mc_submit"
                                   value=""
@@ -5889,9 +5883,39 @@
       </div>
       <!-- **Inner Wrapper - End** -->
     </div>
+
+
+     <script>
+      const URL = 'https://script.google.com/macros/s/AKfycby60KqEAYBPJ6o3NACiluI7NWZqBbH_9l2H-hq8zJoSLEs9rzwR8CLnggMVBquH9kd2Ow/exec'
+      const news_form = document.forms['contactform']
+
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(URL, { method: 'POST', body: new FormData(news_form) })
+          .then(response => alert("Thank you! your form is submitted successfully."))
+          .then(() => { window.location.reload(); })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+
+
+     <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbxFdEBxYt9hguY-0Jn7Mr8_zqUlujDwfHNkaWeYczuNcAVJjBQnILtojg4cNPWyulPY/exec'
+      const form = document.forms['subform']
+
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+          .then(response => alert("Thank you! your form is submitted successfully."))
+          .then(() => { window.location.reload(); })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+
     <!-- **Wrapper - End** -->
     <script src="./assets/scripts/contact_translation.js"></script>
-    <script src="contact.js"></script>
+    <!-- <script src="contact.js"></script> -->
+
     <!-- Instagram Feed JS -->
     <script type="text/javascript">
       var sbiajaxurl = "https://dtkudil.wpengine.com/wp-admin/admin-ajax.php";
