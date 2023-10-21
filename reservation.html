@@ -5748,8 +5748,8 @@
                             <div class="dt-sc-newsletter-section type7">
                               <form
                                 class="dt-sc-subscribe-frm"
-                                name="frmsubscribe"
-                                action="#"
+                                name="subform" 
+                                id="subform"
                                 method="post"
                               >
                                 <input
@@ -5758,19 +5758,23 @@
                                   required="required"
                                   placeholder="Email Addresi"
                                 /><input
-                                  type="hidden"
-                                  name="dt_mc_apikey"
-                                  value=""
-                                /><input
-                                  type="hidden"
-                                  name="dt_mc_listid"
-                                  value=""
-                                /><input
                                   type="submit"
                                   name="mc_submit"
                                   value=""
                                 />
                               </form>
+                              <script>
+                                const scriptURL = 'https://script.google.com/macros/s/AKfycbxFdEBxYt9hguY-0Jn7Mr8_zqUlujDwfHNkaWeYczuNcAVJjBQnILtojg4cNPWyulPY/exec'
+                                const form = document.forms['subform']
+                          
+                                form.addEventListener('submit', e => {
+                                  e.preventDefault()
+                                  fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                                    .then(response => alert("Thank you! your form is submitted successfully."))
+                                    .then(() => { window.location.reload(); })
+                                    .catch(error => console.error('Error!', error.message))
+                                })
+                              </script>
                               <div class="dt_ajax_subscribe_msg"></div>
                             </div>
                           </div>
