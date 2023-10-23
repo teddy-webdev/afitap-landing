@@ -19,3 +19,32 @@
     padding: 15px 15px 15px 45px;
 }
 
+@media (min-width: 767px) {
+    .dt-sc-image-border {
+        width: 70% !important;
+    }
+    .dt-sc-contact-info.type4{
+        height: 15rem !important;
+    }
+}
+.page #primary {
+    padding-bottom: 0px !important;
+}
+
+.wtsp_btn:hover{
+    background-color: #c59d5f;
+    color: white;
+}
+.wtsp_btn{
+    border-color: #c59d5f;
+    color: #c59d5f;
+    border: 2px solid;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin: 10px 0 0;
+    padding: 10px 25px 12px;
+    text-transform: capitalize;
+}
