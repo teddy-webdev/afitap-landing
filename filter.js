@@ -79,9 +79,6 @@ kebap_btn.addEventListener("click", () => {
             kebaplar.classList.remove('hide')
             kebaplar.scrollIntoView({ behavior: "smooth" });
             
-        } else {
-            kebaplar.classList.add('hide')
-            mainElement.scrollIntoView({ behavior: "smooth" });
         }
         
 })
@@ -101,9 +98,6 @@ mezeler_btn.addEventListener("click", () => {
     if (mezeler.classList.contains("hide")) {
             mezeler.classList.remove('hide')
             mezeler.scrollIntoView({ behavior: "smooth" });
-        } else {
-            mezeler.classList.add('hide')
-            mainElement.scrollIntoView({ behavior: "smooth" });
         }
 })
 salatalar_btn.addEventListener("click", () => {
@@ -122,9 +116,6 @@ salatalar_btn.addEventListener("click", () => {
     if (salatalar.classList.contains("hide")) {
             salatalar.classList.remove('hide')
             salatalar.scrollIntoView({ behavior: "smooth" });
-        } else {
-            salatalar.classList.add('hide')
-            mainElement.scrollIntoView({ behavior: "smooth" });
         }
 })
 arasıcaklar_btn.addEventListener("click", () => {
@@ -143,9 +134,6 @@ arasıcaklar_btn.addEventListener("click", () => {
     if (list_1.classList.contains("hide")) {
             list_1.classList.remove('hide')
             list_1.scrollIntoView({ behavior: "smooth" });
-        } else {
-            list_1.classList.add('hide')
-            mainElement.scrollIntoView({ behavior: "smooth" });
         }
 })
 dürümler_btn.addEventListener("click", () => {
@@ -164,9 +152,6 @@ dürümler_btn.addEventListener("click", () => {
     if (dürümler.classList.contains("hide")) {
             dürümler.classList.remove('hide')
             dürümler.scrollIntoView({ behavior: "smooth" });
-        } else {
-            dürümler.classList.add('hide')
-            mainElement.scrollIntoView({ behavior: "smooth" });
         }
 })
 diyetmenu_btn.addEventListener("click", () => {
@@ -185,9 +170,6 @@ diyetmenu_btn.addEventListener("click", () => {
     if (diyetmenü.classList.contains("hide")) {
             diyetmenü.classList.remove('hide')
             diyetmenü.scrollIntoView({ behavior: "smooth" });
-        } else {
-            diyetmenü.classList.add('hide')
-            mainElement.scrollIntoView({ behavior: "smooth" });
         }
 })
 cocukmenu_btn.addEventListener("click", () => {
@@ -206,9 +188,6 @@ cocukmenu_btn.addEventListener("click", () => {
     if (cocukmenusu.classList.contains("hide")) {
             cocukmenusu.classList.remove('hide')
             cocukmenusu.scrollIntoView({ behavior: "smooth" });
-        } else {
-            cocukmenusu.classList.add('hide')
-            mainElement.scrollIntoView({ behavior: "smooth" });
         }
 })
 raki_btn.addEventListener("click", () => {
@@ -227,9 +206,6 @@ raki_btn.addEventListener("click", () => {
     if (Rakı.classList.contains("hide")) {
             Rakı.classList.remove('hide')
             Rakı.scrollIntoView({ behavior: "smooth" });
-        } else {
-            Rakı.classList.add('hide')
-            mainElement.scrollIntoView({ behavior: "smooth" });
         }
 })
 viski_btn.addEventListener("click", () => {
@@ -248,9 +224,6 @@ viski_btn.addEventListener("click", () => {
     if (Viski.classList.contains("hide")) {
             Viski.classList.remove('hide')
             Viski.scrollIntoView({ behavior: "smooth" });
-        } else {
-            Viski.classList.add('hide')
-            mainElement.scrollIntoView({ behavior: "smooth" });
         }
 })
 biralar_btn.addEventListener("click", () => {
@@ -269,8 +242,6 @@ biralar_btn.addEventListener("click", () => {
     if (Biralar.classList.contains("hide")) {
             Biralar.classList.remove('hide')
             Biralar.scrollIntoView({ behavior: "smooth" });
-        } else {
-            Biralar.classList.add('hide')
         }
 })
 icecekler_btn.addEventListener("click", () => {
@@ -289,8 +260,6 @@ icecekler_btn.addEventListener("click", () => {
     if (İçecekler.classList.contains("hide")) {
             İçecekler.classList.remove('hide')
             İçecekler.scrollIntoView({ behavior: "smooth" });
-        } else {
-            İçecekler.classList.add('hide')
         }
 })
 fırınurunleri_btn.addEventListener("click", () => {
@@ -309,8 +278,6 @@ fırınurunleri_btn.addEventListener("click", () => {
     if (fırın.classList.contains("hide")) {
             fırın.classList.remove('hide')
             fırın.scrollIntoView({ behavior: "smooth" });
-        } else {
-            fırın.classList.add('hide')
         }
 })
 saraplar_btn.addEventListener("click", () => {
@@ -329,8 +296,6 @@ saraplar_btn.addEventListener("click", () => {
     if (Şaraplar.classList.contains("hide")) {
             Şaraplar.classList.remove('hide')
             Şaraplar.scrollIntoView({ behavior: "smooth" });
-        } else {
-            Şaraplar.classList.add('hide')
         }
 })
 
@@ -349,4 +314,4 @@ const categ = [
     "Biralar",
     "İçecekler"
 ]
-console.log('categories: ', categ);
+// console.log('categories: ', categ);

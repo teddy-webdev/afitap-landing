@@ -8,7 +8,9 @@ const Column_IDs = ['food_title', 'food_price'];
 const FULL_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tq=&gid=0&headers=1&tqx=out:csv&range=${SHEET_RANGE}`;
 
 
-fetch(FULL_URL).then(res => console.log(res))
+// fetch(FULL_URL).then(res => 
+//   // console.log(res)
+//   )
 
 // Rest of your code
 fetch(FULL_URL)
@@ -52,7 +54,7 @@ fetch(FULL_URL)
 
       if (foodPriceEl) {
         foodPriceEl.textContent = `${item.food_price} `; 
-        console.log(item.id);
+        // console.log(item.id);
       }
     });
   })
