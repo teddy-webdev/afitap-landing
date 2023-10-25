@@ -48,3 +48,10 @@
     padding: 10px 25px 12px;
     text-transform: capitalize;
 }
+
+.dt-sc-title.with-image.with-sub-title h4 {
+    color: #525252 !important;
+}
+.footer-copyright p{
+    color: #969696 !important;
+}
