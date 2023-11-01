@@ -20,12 +20,18 @@
     padding: 15px 15px 15px 45px;
 }
 
-@media (min-width: 767px) {
+
+@media only screen and (min-width:768px) and (max-width: 1100px) {
     .dt-sc-image-border {
         width: 70% !important;
     }
     .dt-sc-contact-info.type4{
         height: 15rem !important;
+    }
+}
+@media only screen and (min-width:1200px) and (max-width:1380px) {
+    .dt-sc-image-border {
+        width: 100% !important;
     }
 }
 .page #primary {
@@ -65,7 +71,20 @@
 .dt-sc-icon-box.type1 .icon-content h4, p {
     color: #ebebeb !important;
 }
-
+#int_meals .dt-product-excerpt p{
+    margin-top: 3rem !important;
+}
+.filter-btn{
+    color: #ff700d !important;
+    border-radius: 2rem;
+    background-color: #474545;
+}
+span.amount{
+    border: 1.5px solid #ff700d !important;
+    border-radius: 2rem;
+    /* background-color: #474545 !important;
+    color: #fff !important; */
+}
 /* caroussel wrapper */
 
 
