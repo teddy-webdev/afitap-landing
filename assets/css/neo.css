@@ -1,3 +1,4 @@
+
 #header-9102 p{
     margin-bottom: 0px !important;
 }
@@ -32,12 +33,12 @@
 }
 
 .wtsp_btn:hover{
-    background-color: #c59d5f;
+    background-color: #ff700d;
     color: white;
 }
 .wtsp_btn{
-    border-color: #c59d5f;
-    color: #c59d5f;
+    border-color: #ff700d;
+    color: #ff700d;
     border: 2px solid;
     cursor: pointer;
     display: inline-block;
@@ -49,9 +50,23 @@
     text-transform: capitalize;
 }
 
-.dt-sc-title.with-image.with-sub-title h4 {
-    color: #525252 !important;
+.dt-sc-title.with-image.with-sub-title h4, .dt-sc-title.with-image.with-sub-title h2, .wpb_text_column.wpb_content_element .wpb_wrapper p{
+    color: #fff !important;
 }
 .footer-copyright p{
     color: #969696 !important;
 }
+
+.dt-sc-icon-box.type1, .last .dt-sc-icon-box.type1 {
+    border-color: #ebebeb !important;
+}
+
+
+.dt-sc-icon-box.type1 .icon-content h4, p {
+    color: #ebebeb !important;
+}
+
+/* caroussel wrapper */
+
+
+

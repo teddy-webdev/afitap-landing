@@ -11,7 +11,7 @@ body {
   --wp--preset--color--pale-cyan-blue: #8ed1fc;
   --wp--preset--color--vivid-cyan-blue: #0693e3;
   --wp--preset--color--vivid-purple: #9b51e0;
-  --wp--preset--color--primary: #c59d5f;
+  --wp--preset--color--primary: #ff700d;
   --wp--preset--color--secondary: #9d7d4c;
   --wp--preset--color--tertiary: #d0b07e;
   --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(
@@ -617,20 +617,20 @@ body .is-layout-flex > * {
 
 .dt-sc-icon-box.type10 .icon-wrapper:before,
 .dt-sc-pr-tb-col.type2 .dt-sc-tb-header:before {
-  box-shadow: 5px 0px 0px 0px #c59d5f;
+  box-shadow: 5px 0px 0px 0px #ff700d;
 }
 
 .dt-sc-icon-box.type10:hover .icon-wrapper:before {
-  box-shadow: 7px 0px 0px 0px #c59d5f;
+  box-shadow: 7px 0px 0px 0px #ff700d;
 }
 
 .dt-sc-counter.type6 .dt-sc-couter-icon-holder:before {
-  box-shadow: 5px 1px 0px 0px #c59d5f;
+  box-shadow: 5px 1px 0px 0px #ff700d;
 }
 
 .dt-sc-button.with-shadow.white,
 .dt-sc-pr-tb-col.type2 .dt-sc-buy-now a {
-  box-shadow: 3px 3px 0px 0px #c59d5f;
+  box-shadow: 3px 3px 0px 0px #ff700d;
 }
 
 .dt-sc-restaurant-events-list .dt-sc-restaurant-event-details h6:before {
@@ -656,14 +656,14 @@ body .is-layout-flex > * {
   .dt-sc-icon-box.type10 .icon-content h4:after,
   .dt-sc-counter.type6.last h4::before,
   .dt-sc-counter.type6 h4::after {
-    background-color: #c59d5f;
+    background-color: #ff700d;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .dt-sc-timeline-section.type2,
   .dt-sc-timeline-section.type2::before {
-    border-color: #c59d5f;
+    border-color: #ff700d;
   }
 }
 
@@ -740,28 +740,28 @@ body .is-layout-flex > * {
 }
 
 ul.products li.product:hover .woo-type11 .product-wrapper {
-  -webkit-box-shadow: 0 0 0 3px #c59d5f;
-  -moz-box-shadow: 0 0 0 3px #c59d5f;
-  -ms-box-shadow: 0 0 0 3px #c59d5f;
-  -o-box-shadow: 0 0 0 3px #c59d5f;
-  box-shadow: 0 0 0 3px #c59d5f;
+  -webkit-box-shadow: 0 0 0 3px #ff700d;
+  -moz-box-shadow: 0 0 0 3px #ff700d;
+  -ms-box-shadow: 0 0 0 3px #ff700d;
+  -o-box-shadow: 0 0 0 3px #ff700d;
+  box-shadow: 0 0 0 3px #ff700d;
 }
 
 .woo-type12 ul.products li.product .product-details {
-  -webkit-box-shadow: 0 -3px 0 0 #c59d5f inset;
-  -moz-box-shadow: 0 -3px 0 0 #c59d5f inset;
-  -ms-box-shadow: 0 -3px 0 0 #c59d5f inset;
-  -o-box-shadow: 0 -3px 0 0 #c59d5f inset;
-  box-shadow: 0 -3px 0 0 #c59d5f inset;
+  -webkit-box-shadow: 0 -3px 0 0 #ff700d inset;
+  -moz-box-shadow: 0 -3px 0 0 #ff700d inset;
+  -ms-box-shadow: 0 -3px 0 0 #ff700d inset;
+  -o-box-shadow: 0 -3px 0 0 #ff700d inset;
+  box-shadow: 0 -3px 0 0 #ff700d inset;
 }
 
 ul.products li.product .woo-type14 .product-details,
 ul.products li.product .woo-type14 .product-details h5:after {
-  -webkit-box-shadow: 0 0 0 2px #c59d5f inset;
-  -moz-box-shadow: 0 0 0 2px #c59d5f inset;
-  -ms-box-shadow: 0 0 0 2px #c59d5f inset;
-  -o-box-shadow: 0 0 0 2px #c59d5f inset;
-  box-shadow: 0 0 0 2px #c59d5f inset;
+  -webkit-box-shadow: 0 0 0 2px #ff700d inset;
+  -moz-box-shadow: 0 0 0 2px #ff700d inset;
+  -ms-box-shadow: 0 0 0 2px #ff700d inset;
+  -o-box-shadow: 0 0 0 2px #ff700d inset;
+  box-shadow: 0 0 0 2px #ff700d inset;
 }
 
 .dt-sc-event-month-thumb .dt-sc-event-read-more,
@@ -775,6 +775,7 @@ ul.products li.product .woo-type14 .product-details h5:after {
   .skin-highlight .dt-sc-testimonial.type6 .dt-sc-testimonial-author:after {
     background-color: #9d7d4c;
   }
+ 
 }
 
 ul.products li.product:hover .woo-type8 .product-details h5:after {
@@ -862,7 +863,7 @@ ul.products li.product .woo-type20 .product-wrapper {
 
 @-webkit-keyframes color-change {
   0% {
-    color: #c59d5f;
+    color: #ff700d;
   }
 
   50% {
@@ -876,7 +877,7 @@ ul.products li.product .woo-type20 .product-wrapper {
 
 @-moz-keyframes color-change {
   0% {
-    color: #c59d5f;
+    color: #ff700d;
   }
 
   50% {
@@ -890,7 +891,7 @@ ul.products li.product .woo-type20 .product-wrapper {
 
 @-ms-keyframes color-change {
   0% {
-    color: #c59d5f;
+    color: #ff700d;
   }
 
   50% {
@@ -904,7 +905,7 @@ ul.products li.product .woo-type20 .product-wrapper {
 
 @-o-keyframes color-change {
   0% {
-    color: #c59d5f;
+    color: #ff700d;
   }
 
   50% {
@@ -918,7 +919,7 @@ ul.products li.product .woo-type20 .product-wrapper {
 
 @keyframes color-change {
   0% {
-    color: #c59d5f;
+    color: #ff700d;
   }
 
   50% {
