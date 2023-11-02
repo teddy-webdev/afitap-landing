@@ -79,6 +79,16 @@
     border-radius: 2rem;
     background-color: #474545;
 }
+.filter-btn:focus{
+    color: #fffdfb !important;
+    border-radius: 2rem;
+    background-color: #ff700d;
+}
+.filter-btn:hover{
+    color: #fffdfb !important;
+    border-radius: 2rem;
+    background-color: #474545;
+}
 span.amount{
     border: 1.5px solid #ff700d !important;
     border-radius: 2rem;
@@ -89,3 +99,85 @@ span.amount{
 
 
 
+/* menu grid */
+.grr_titl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+
+}
+.grr_menu{
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 2rem;
+grid-row-gap: 2rem;
+}
+@media only screen and (min-width:1024px){
+    .person:hover .bg-\[\#2250fc\] {
+        background-color: rgb(255 255 255 / 34% );
+    }
+    .person:hover .rounded-md p{
+        display: block !important;
+        color: black !important;
+    }
+    .pt-food-menu-details{
+        display: none !important;
+    }
+}
+@media only screen and (min-width:767px) and (max-width: 1200px) {
+    .grr_menu{
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 2rem;
+grid-row-gap: 2rem;
+}
+.person{
+    width: 23rem;
+}
+}
+@media only screen and (min-width:1201px) {
+    .grr_menu{
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 2rem;
+grid-row-gap: 2rem;
+}
+
+}
+.pt-food-menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: .75rem;
+}
+
+.person{
+    width: 20rem;
+    height: 372px;
+}
+.pt-food-menu-main{
+    width: 20rem;
+}
+.rounded-md p{
+    display: none !important;
+}
+.rounded-md{
+    border-radius: 0.375rem !important;
+}
+
+.p-4 {
+    height: 100%;
+    padding: .5rem;
+}
+.w-full {
+    width: 100%;
+}
+
+.h-full {
+    height: 100%;
+}

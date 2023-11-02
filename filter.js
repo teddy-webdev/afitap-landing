@@ -33,7 +33,7 @@ const İçecekler = document.querySelector('#İçecekler_section');
 
 const mainElement = document.querySelector('#main');
  
-list_1.classList.remove('hide')
+list_1.classList.add('hide')
     kebaplar.classList.add('hide')
     salatalar.classList.add('hide')
     mezeler.classList.add('hide')
