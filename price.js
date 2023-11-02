@@ -7,16 +7,9 @@ const Column_IDs = ['food_title', 'food_price'];
 // Construct the FULL_URL using the string values
 const FULL_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tq=&gid=0&headers=1&tqx=out:csv&range=${SHEET_RANGE}`;
 
-
-// fetch(FULL_URL).then(res => 
-//   // console.log(res)
-//   )
-
-// Rest of your code
 fetch(FULL_URL)
   .then(res => res.text())
   .then(csvData => {
-    
     let rows = csvData.split('\n');
     let data = rows.map(row => row.split('","'));
     // Extract headers from the first row
@@ -45,16 +38,14 @@ fetch(FULL_URL)
     }
 
     objectsArray.forEach(item => {
-      const el = document.getElementById(item.id);
-      let foodPriceEl
-      if(el) {
+      const foodId = item.id; // Replace 'id' with the actual identifier for food items
+      const el = document.querySelector(`[data-food-id="${foodId}"]`);
 
-       foodPriceEl = el.querySelector('.foodPrice'); 
-      }
-
-      if (foodPriceEl) {
-        foodPriceEl.textContent = `${item.food_price} `; 
-        // console.log(item.id);
+      if (el) {
+        const foodPriceEl = el.querySelector('.foodPrice');
+        if (foodPriceEl) {
+          foodPriceEl.textContent = `${item.food_price} `;
+        }
       }
     });
   })
