@@ -42,7 +42,7 @@ const i18nData = {
     reservation: "Reservation",
     main_t: "Contact Us",
     up_text: "Get back to us",
-    send_msg: "Send Message",
+    send_msg: "Send",
     thx: "Thank you! Your submission has been received!",
     oops: "Oops! Something went wrong while submitting the form.",
     c_addr:
@@ -73,7 +73,7 @@ const i18nData = {
     reservation: "Rezervasyon",
     main_t: "Bize Ulaşın",
     up_text: "Bize geri dönüş yapın",
-    send_msg: "Mesaj Gönder",
+    send_msg: "Gönder",
     thx: "Teşekkür ederim! Gönderiminiz alındı!",
     oops: "Hata! Formu gönderirken bir şeyler ters gitti.",
     c_addr:
