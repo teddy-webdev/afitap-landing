@@ -4892,29 +4892,17 @@
                     <div class="vc_column-inner">
                       <div class="wpb_wrapper">
                         <div
-                          id="1524207424019-cfc777d2-bf9a"
-                          class="dt-sc-empty-space"
-                        ></div>
-                        <div
                           role="form"
                           class="wpcf7"
                           id="wpcf7-f4-p8775-o1"
                           lang="en-US"
                           dir="ltr"
                         >
-                          <div class="screen-reader-response">
-                            <p
-                              role="status"
-                              aria-live="polite"
-                              aria-atomic="true"
-                            ></p>
-                            <ul></ul>
-                          </div>
                           <form
                             method="post"
                             class="wpcf7-form init"
-                            name="contactform" 
-                            id="contactform"
+                            name="messageform" 
+                            id="messageform"
                           >
                             <div class="vc_row wpb_row vc_row-fluid">
                               <div
@@ -5021,19 +5009,17 @@
                                     >
                                       <span class="vc_empty_space_inner"></span>
                                     </div>
-                                    <button
+                                    <input
                                       type="submit"
-                                      id="contact_button"
                                       class="button primary max-width-full w-button"
                                       data-translate="send_msg"
-                                    >
-                                      Send Message
-                                    </button>
+                                      value="Send Message"
+                                   / >
                                   </div>
                                 </div>
                               </div>
                             </div>
-                            <div class="form-message-success w-form-done hide">
+                            <!-- <div class="form-message-success w-form-done hide">
                               <div data-translate="thx">
                                 Thank you! Your submission has been received!
                               </div>
@@ -5043,13 +5029,10 @@
                                 Oops! Something went wrong while submitting the
                                 form.
                               </div>
-                            </div>
+                            </div> -->
                           </form>
                         </div>
-                        <div
-                          id="1524209298093-355915d4-3617"
-                          class="dt-sc-empty-space"
-                        ></div>
+                      
                       </div>
                     </div>
                   </div>
@@ -5541,12 +5524,12 @@
 
 
      <script>
-      const URL = 'https://script.google.com/macros/s/AKfycby60KqEAYBPJ6o3NACiluI7NWZqBbH_9l2H-hq8zJoSLEs9rzwR8CLnggMVBquH9kd2Ow/exec'
-      const news_form = document.forms['contactform']
+      const messageURL = 'https://script.google.com/macros/s/AKfycbxv9h4uLEHOaWOATH-qngRJu0_cuqBm13lGMZRjQrTlsPl9ONZMHoWLFXgSzTHTBo-CvQ/exec'
+      const message_form = document.forms['messageform']
 
       form.addEventListener('submit', e => {
         e.preventDefault()
-        fetch(URL, { method: 'POST', body: new FormData(news_form) })
+        fetch(messageURL, { method: 'POST', body: new FormData(message_form) })
           .then(response => alert("Thank you! your form is submitted successfully."))
           .then(() => { window.location.reload(); })
           .catch(error => console.error('Error!', error.message))
