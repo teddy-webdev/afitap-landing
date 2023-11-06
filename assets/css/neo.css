@@ -399,3 +399,19 @@ main {
     width: 85%;
   }
 }
+
+.blurbb{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+  margin-top: -36px;
+}
+.blurbb div h4{
+  font-family: "Marck Script";
+  color: white; 
+}
+.blurbb div{
+  padding: 2rem;
+}
