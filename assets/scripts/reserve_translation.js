@@ -79,7 +79,7 @@ const i18nData = {
     contact: "İletişim",
     reservation: "Rezervasyon",
 
-    main_t: "Reservasyon Yapınız",
+    main_t: "Anında Reservasyon ",
     main_t_2: "Özel Yemekler &amp;Etkinlikler",
     main_desc:
       "Afitap Kebap Restoran, özel yemekler ve etkinlikler için harika bir mekan sunmaktadır. Bu restoranda düzenlenen özel etkinlikler ve yemekler, unutulmaz anılar yaratmanıza yardımcı olacaktır.",

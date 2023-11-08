@@ -175,6 +175,12 @@ span.amount {
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
   }
+  .kjhjdb{
+    display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: row;
+  }
 
   .person {
     width: 23rem;
@@ -436,4 +442,18 @@ main {
 }
 .dt-sc-image-border:after {
   background-color: #080808 !important;
+}
+.kjhjdb{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.kjhjdb_qr img{
+  height: 6rem;
+  width: 6rem;
+}
+
+#toTop {
+  border: 3px solid #ff700d !important;
 }

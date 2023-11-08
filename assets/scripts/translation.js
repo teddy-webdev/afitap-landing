@@ -104,7 +104,7 @@ const i18nData = {
     experience_env: "Muhteşem Ortamı Deneyimleyin",
     famous_cuis: "Ünlü Mutfak",
     today_meal: "Afitap Özel Fırsatları",
-    tasting_menu: "Sizin için seçtiklerimiz",
+    tasting_menu: "Sizin için",
     we_celebrate: "Kutluyoruz",
     local_seasonal: "Yerel ve Mevsimsel Lezzetler",
     farm_table: "Çiftlikten Sofraya",
