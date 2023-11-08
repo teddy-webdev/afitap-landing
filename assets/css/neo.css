@@ -167,6 +167,15 @@ span.amount {
   }
 }
 
+@media only screen and (min-width: 767px) {
+  .kjhjdb{
+    display: flex;
+      justify-content: center !important;
+      align-items: flex-start !important;
+      flex-direction: row !important;
+      gap: .75rem !important;
+  }
+}
 @media only screen and (min-width: 767px) and (max-width: 1200px) {
   .grr_menu {
     display: grid;
@@ -175,12 +184,7 @@ span.amount {
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
   }
-  .kjhjdb{
-    display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      flex-direction: row;
-  }
+  
 
   .person {
     width: 23rem;
