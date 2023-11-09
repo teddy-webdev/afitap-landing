@@ -108,6 +108,45 @@ const i18nData = {
       "<h6>Açılış Saatleri</h6> <h4>Pazartesi - Pazar</h4> <strong>12:00 – 02:00 <br /> </strong>",
     our_contact: "Bize Ulaşın: ",
   },
+  ru: {
+    lang_icon:
+      "<img src='https://flagcdn.com/48x36/ru.png' style='width: 1.25rem; height: 1rem;' alt='язык'>",
+    home_nav: "Главная страница",
+    menu_nav: "Меню",
+    about_us: "О нас",
+    contact: "Контакты",
+    reservation: "Бронирование",
+
+    main_t: "Моментальное бронирование",
+    main_t_2: "Особые блюда и мероприятия",
+    main_desc:
+      "Ресторан Afitap Kebap предоставляет замечательное место для особых блюд и мероприятий. Особые мероприятия и блюда, проводимые в этом ресторане, помогут вам создать незабываемые воспоминания.",
+    m_cont: "Свяжитесь с нами по телефону",
+    r_prog:
+      "<h6>Часы работы</h6> <h4>Понедельник - Воскресенье</h4> <p>12:00 – 02:00<br /></p>",
+    main_o: "Онлайн-бронирование",
+    main_o_2: "Нет необходимости ждать столик",
+    nppl: "Сколько человек",
+    gner_w: "Получите ссылку WhatsApp",
+    e_find_m: "Мероприятия и праздники",
+    e_find: "Место для мероприятий",
+    e_f_1: "Семейные вечеринки",
+    e_f_1_d: "Дни рождения",
+    e_f_1_c:
+      "Ресторан Afitap Kebap, перенося вкусы турецкой кухни на вашу день рождения, предоставляет вам и вашим гостям незабываемый опыт. Для получения подробной информации и бронирования свяжитесь с рестораном.",
+    e_f_2: "Вечеринки и торжества",
+    e_f_2_d: "Официальные встречи",
+    e_f_2_c:
+      "Ресторан Afitap Kebap предоставляет удобное пространство, соответствующее потребностям делового мира, чтобы сделать ваши официальные встречи более продуктивными и приятными. Для получения подробной информации и бронирования свяжитесь с рестораном.",
+
+    our_socials: "Следите за нами: ",
+    our_address:
+      "<h6>Адрес</h6>Осман Орек Бульвар, улица 15 Касым, Апартаменты Консе и Ходжа, № 9-10<br /> Гирне - Северный Кипр",
+    our_programs:
+      "<h6>Часы работы</h6> <h4>Понедельник - Воскресенье</h4> <strong>12:00 – 02:00 <br /> </strong>",
+    our_contact: "Свяжитесь с нами: ",
+  }
+
 };
 
 const i18nInstance = new i18n();
@@ -139,7 +178,15 @@ function setContactFormPlaceHolders(lang) {
     document.querySelector('input[name = "email"]').placeholder = "E-posta";
     document.querySelector('input[name="dt_mc_emailid"]').placeholder =
       "E-posta adresinizi girin";
-  } else {
+  }
+  else if (lang === "ru") {
+    document.querySelector('input[name="startDate"]').placeholder = "Выберите дату";
+    document.querySelector('input[name="ResTime"]').placeholder = "Выберите время";
+    document.querySelector('input[name="telefon"]').placeholder = "Телефон: ";
+    document.querySelector('input[name="email"]').placeholder = "Электронная почта";
+    document.querySelector('input[name="dt_mc_emailid"]').placeholder = "Введите ваш адрес электронной почты";
+}
+ else {
     document.querySelector('input[name="startDate"]').placeholder =
       "Select Date";
     document.querySelector('input[name="ResTime"]').placeholder = "Select Time";

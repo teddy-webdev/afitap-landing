@@ -126,6 +126,52 @@ const i18nData = {
       "<h6>Açılış Saatleri</h6> <h4>Pazartesi - Pazar</h4> <strong>12:00 – 02:00 <br /> </strong>",
     our_contact: "Bize Ulaşın: ",
   },
+  ru: {
+    lang_icon:
+      "<img src='https://flagcdn.com/48x36/ru.png' style='width: 1.25rem; height: 1rem;' alt='Язык'>",
+    home_nav: "Главная",
+    menu_nav: "Меню",
+    about_us: "О нас",
+    contact: "Контакты",
+    reservation: "Бронирование",
+    our_menu: "Наше Меню",
+    _all: "Все",
+    ara_sicaklar: "Закуски",
+    salads: "Салаты",
+    mezeler: "Закуски",
+    firin: "Выпечка",
+    kebab: "Кебабы",
+    durums: "Дюрумы",
+    diet_menu: "Диетическое Меню",
+    kids_menu: "Детское Меню",
+    raki: "Раки",
+    sarap: "Вина",
+    viski: "Виски",
+    biralar: "Пиво",
+    icecekler: "Напитки",
+    _alls: "Все",
+    ara_sicaklars: "Закуски",
+    saladss: "Салаты",
+    mezelers: "Закуски",
+    firins: "Выпечка",
+    kebabs: "Кебабы",
+    durumss: "Дюрумы",
+    diet_menus: "Диетическое Меню",
+    kids_menus: "Детское Меню",
+    rakis: "Раки",
+    rakiss: "Раки",
+    saraps: "Вина",
+    viskis: "Виски",
+    biralars: "Пиво",
+    iceceklers: "Напитки",
+    our_socials: "Следите за нами: ",
+    our_address:
+      "<h6>Адрес</h6> Осман Орек Бульвар, улица 15 Консе и Хокана, дом № 9-10<br /> Гирне - Северный Кипр",
+    our_programs:
+      "<h6>Часы Работы</h6> <h4>Понедельник - Воскресенье</h4> <strong>12:00 – 02:00 <br /> </strong>",
+    our_contact: "Свяжитесь с нами: ",
+}
+
 };
 
 const i18nInstance = new i18n();
@@ -152,9 +198,15 @@ function setContactFormPlaceHolders(lang) {
     document.querySelector('input[name="dt_mc_emailid"]').placeholder =
       "E-posta adresinizi girin";
 
-  } else {
+  }
+  else if (lang === "ru") {
     document.querySelector('input[name="dt_mc_emailid"]').placeholder =
-      "Enter your Email";
+      "Введите свой адрес электронной почты";
+
+  }
+  else {
+    document.querySelector('input[name="dt_mc_emailid"]').placeholder = "Enter your Email";
+
   }
 }
 

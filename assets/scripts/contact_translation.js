@@ -94,6 +94,37 @@ const i18nData = {
       "<h6>Açılış Saatleri</h6> <h4>Pazartesi - Pazar</h4> <strong>12:00 – 02:00 <br /> </strong>",
     our_contact: "Bize Ulaşın: ",
   },
+  ru: {
+    lang_icon:
+        "<img src='https://flagcdn.com/48x36/ru.png' style='width: 1.25rem; height: 1rem;' alt='Язык'>",
+    home_nav: "Главная",
+    menu_nav: "Меню",
+    about_us: "О нас",
+    contact: "Контакты",
+    reservation: "Бронирование",
+    main_t: "Свяжитесь с нами",
+    up_text: "Свяжитесь с нами",
+    send_msg: "Отправить",
+    thx: "Спасибо! Ваше сообщение получено!",
+    oops: "Ошибка! Что-то пошло не так при отправке формы.",
+    c_addr:
+        "<span class='pe-icon pe-map-marker'></span><h6>Адрес</h6>Осман Орек Бульвар, улица 15 Касым, Апартаменты Консе и Ходжа, № 9-10<p> Гирне - Северный Кипр</p>",
+    c_rez:
+        "<span class='pe-icon pe-phone'></span> <h6>Звоните нам</h6> <a href='tel:+90 533 888 8786' >Бронирование : +90 533 888 8786</a>",
+    c_mail:
+        "<span class='pe-icon pe-mail'></span> <h6>Напишите нам</h6> Электронная почта: <a href='mailto:info@afitapkebap.com' >info@afitapkebap.com</a>",
+    c_prog:
+        "<span class='pe-icon pe-timer'></span><h6>Часы работы</h6> <h4>Понедельник - Воскресенье</h4> <strong>12:00 – 02:00 <br /> </strong>",
+    c_desc:
+        "Меню ресторана 'Афитап Кебап' богато и разнообразно. Оно включает в себя не только традиционные турецкие кебабы, но также специальные закуски, салаты, горячие закуски, куриные кебабы, буррито, десерты и многое другое. Одним из уникальных блюд ресторана является 'Гриль Халлуми' - восхитительное блюдо, в котором свежий халлуми с овощами готовится на гриле. Также стоит попробовать 'Кипрскую пастрами', где специально приготовленное и высушенное мясо встречается с особым вкусом.",
+    our_socials: "Следите за нами: ",
+    our_address:
+        "<h6>Адрес</h6>Осман Орек Бульвар, улица 15 Касым, Апартаменты Консе и Ходжа, № 9-10<br /> Гирне - Северный Кипр",
+    our_programs:
+        "<h6>Часы работы</h6> <h4>Понедельник - Воскресенье</h4> <strong>12:00 – 02:00 <br /> </strong>",
+    our_contact: "Свяжитесь с нами: ",
+}
+
 };
 
 const i18nInstance = new i18n();
@@ -125,7 +156,18 @@ function setContactFormPlaceHolders(lang) {
 
     document.querySelector('input[name="dt_mc_emailid"]').placeholder =
       "E-posta adresinizi girin";
-  } else {
+  }
+  else if (lang === "ru") {
+    (document.querySelector('input[name="fullName"]').placeholder = "Ваше имя"),
+      (document.querySelector('input[name="email"]').placeholder =
+        "Адрес электронной почты");
+    document.querySelector('input[name="subject"]').placeholder = "Тема";
+    document.querySelector('textarea[name="message"]').placeholder = "Сообщение";
+  
+    document.querySelector('input[name="dt_mc_emailid"]').placeholder =
+      "Введите ваш адрес электронной почты";
+  }
+   else {
     (document.querySelector('input[name="fullName"]').placeholder =
       "Full Name"),
       (document.querySelector('input[name="email"]').placeholder =

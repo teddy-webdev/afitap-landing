@@ -71,6 +71,7 @@ const i18nData = {
     fast_serv: "Fast Service",
     fast_serv_desc: "Our restaurant brings together sped and taste with its 'Quick Service'. We offer kebab lovers a fresh and carefully prepared delicacies as soon as possible. This fast service leaves a taste in your palate while placing your orders.",
     have_fun: "Have fun with your family and friends",
+    coupon_img: " <img src='./assets/kupon afitap ENG.png' alt=''>",
     fun_disc: "<strong>25% Discount</strong> 15% coupon for familly parties",
     h_snack: "Healthy Snacks",
     h_snack_desc: "Our restaurant further enriches the kebab experience with he 'Healthy Snacks' option that combines health and taste",
@@ -131,6 +132,7 @@ const i18nData = {
     fast_serv: "Hızlı Hizmet",
     fast_serv_desc: "Restoranımız, 'Hızlı Servis' ile hızı ve lezzeti bir araya getirir. Kebap severlere mümkün olan en kısa sürede taze ve özenle hazırlanan lezzetler sunar. Bu hızlı hizmet, siparişlerinizi verirken damakta bir tat bırakır.",
     have_fun: "Aileniz ve Arkadaşlarınızla Eğlenin",
+    coupon_img: " <img src='./assets/kupon afitap.png' alt=''>",
     fun_disc: "<strong>25% İndirim</strong> Aile partileri için 15% indirim kuponu",
     h_snack: "Sağlıklı Atıştırmalıklar",
     h_snack_desc: "Restoranımız, sağlık ve lezzeti bir araya getiren 'Sağlıklı Atıştırmalıklar' seçeneği ile kebap deneyimini daha da zenginleştirir.",
@@ -151,7 +153,69 @@ const i18nData = {
     our_address: "<h6>Adres</h6>Osman Örek Bulvarı, 15 Kasım Sokak, Konce & Hocanın Apt. No:9-10<br /> Girne - KKTC",
     our_programs: "<h6>Açılış Saatleri</h6> <h4>Pazartesi - Pazar</h4> <strong>12:00 – 02:00 <br /> </strong>",
     our_contact: "Bize Ulaşın: "
+},
+ru: {
+  lang_icon: "<img src='https://flagcdn.com/48x36/ru.png' style='width: 1.25rem; height: 1rem;' alt='Язык'>",
+  home_nav: "Главная",
+  menu_nav: "Меню",
+  about_us: "О нас",
+  contact: "Контакты",
+  reservation: "Бронирование",
+  taste_home: "Уникальный Вкус",
+  since_date: "С 2020 года",
+  experience_env: "Почувствуйте Удивительную Атмосферу",
+  famous_cuis: "Известная Кухня",
+  today_meal: "Специальные Предложения сегодня",
+  tasting_menu: "Для Вас",
+  we_celebrate: "Мы Празднуем",
+  local_seasonal: "Местные и Сезонные Вкусы",
+  farm_table: "От Фермы к Столу",
+  resto: "Ресторан",
+  date: "Дата",
+  resto_desc: "АФИТАП КЕБАП - это дочернее предприятие Musmer Trading Limited.",
+  sensitive: "Чувствительный",
+  services: "Наши Услуги",
+  services_desc: "Afitap Kebap приглашает вас на незабываемый гастрономический опыт с уникальной атмосферой и вкусными блюдами. Богатое меню, приготовленное опытными поварами, объединяет местные и международные вкусы. Сочетание гостеприимного обслуживания и вкусов позволит вам провести незабываемый вечер в этом ресторане.",
+  delicious_n: "Более 96 Вкусных и Красивых Блюд",
+  recipes_menu: "Рецепты",
+  comfort: "Для Вашего Комфорта",
+  amaz_recipes: "Удивительные Рецепты",
+  high_quality: "Высокое Качество",
+  high_quality_desc: "Ресторан, выделяющийся высоким качеством. Наши вкусные блюда, приготовленные из самых свежих и отборных ингредиентов, сливаются с мастерским прикосновением наших поваров.",
+  inspiring_recipes: "Вдохновляющие Рецепты",
+  inspiring_recipes_desc: "Мы предлагаем не только блюда, но и вдохновляющий опыт. Мы сочетаем традиционные вкусы кебаба с современными интерпретациями, чтобы оставить незабываемые впечатления на вашем вкусе.",
+  healthy_foods: "Здоровая Еда",
+  healthy_foods_desc: "Мы добавляем здоровое прикосновение к кебабу. Блюда, приготовленные из свежих и питательных ингредиентов, предлагают традиционный вкус в современном и здоровом исполнении. Здоровье и вкус великолепно сочетаются.",
+  exp_employees: "Опытные Сотрудники",
+  exp_employees_desc: "Основой успеха нашего ресторана является преданная работа опытных сотрудников. Наша команда, начиная от опытных поваров и заканчивая официантами, специализируется в своей области и поднимает кебаб-опыт на новый уровень.",
+  princ_materials: "Принципиальные Ингредиенты",
+  princ_materials_desc: "Мы объединяем кебаб-опыт, начиная с философии 'принципиальных ингредиентов', и сочетаем его с чистыми и натуральными вкусами. Выбранные и свежие ингредиенты мастерски обрабатываются, чтобы представить традиционные вкусы кебаба в современной подаче.",
+  fast_serv: "Быстрое Обслуживание",
+  fast_serv_desc: "Наш ресторан объединяет скорость и вкус с 'Быстрым Обслуживанием'. Мы предлагаем кебаб-любителям свежие и заботливо приготовленные блюда в кратчайшие сроки. Это быстрое обслуживание оставит вас с великолепным вкусом при заказе.",
+  have_fun: "Проведите Время с Семьей и Друзьями",
+  coupon_img: " <img src='./assets/kupon afitap.png' alt=''>",
+  fun_disc: "<strong>25% Скидка</strong> на семейные вечеринки, 15% купон на скидку",
+  h_snack: "Здоровые Закуски",
+  h_snack_desc: "Наш ресторан обогащает кебаб-опыт 'Здоровыми Закусками', сочетающими в себе здоровье и вкус.",
+  h_drinks: "Здоровые Напитки",
+  h_drinks_desc: "Наши напитки, приготовленные из натуральных и свежих ингредиентов, предлагают освежающую и вкусную альтернативу.",
+  c_desert: "Шоколадные Десерты",
+  c_desert_desc: "Вас также ждут шоколадные десерты для необычного вкусового опыта.",
+  soft_d: "Свежие Напитки",
+  soft_d_desc: "Свежие напитки ожидают вас, принося вкусное путешествие для ваших вкусовых рецепторов.",
+  p_meals: "Упакованные Блюда",
+  p_meals_desc: "Наш ресторан также предлагает упакованные блюда, соответствующие быстрому темпу жизни.",
+  s_dish: "Пикантные Блюда",
+  s_dish_desc: "Мы рекомендуем нашим любителям пикантных блюд для оживления вкусовых рецепторов.",
+  face_u: "Перед Вами",
+  our_food: "Наши Блюда",
+  our_food_desc: "Они полны вкусов, оставляя незабываемые впечатления на вашем вкусе. Мы предлагаем традиционные кебабы с современными интерпретациями, где вкус и творчество соединяются. Наши блюда, приготовленные из отобранных ингредиентов и опытными поварами, доставляют удовольствие каждому гурману.",
+  our_socials: "Следите за нами: ",
+  our_address: "<h6>Адрес</h6> Осман Орек Бульвар, 15 улица Консе и Хокана, дом № 9-10<br /> Гирне - Северный Кипр",
+  our_programs: "<h6>Часы Работы</h6> <h4>Понедельник - Воскресенье</h4> <strong>12:00 – 02:00 <br /> </strong>",
+  our_contact: "Свяжитесь с нами: "
 }
+
 
 };
 
@@ -180,6 +244,11 @@ function setContactFormPlaceHolders(lang) {
   if (lang === "tr") {
     document.querySelector('input[name="dt_mc_emailid"]').placeholder =
       "E-posta adresinizi girin";
+
+  }
+  else if (lang === "ru") {
+    document.querySelector('input[name="dt_mc_emailid"]').placeholder =
+      "Введите свой адрес электронной почты";
 
   }
   else {
