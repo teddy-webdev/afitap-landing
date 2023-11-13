@@ -211,4 +211,7 @@ p {
     .section_text-mobile{
         padding: 1rem;
     }
+    #primay{
+        margin-top: 1rem;
+    }
  }
