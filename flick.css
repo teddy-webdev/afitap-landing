@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Marck+Script&family=Open+Sans:wght@300&family=Tangerine:wght@700&display=swap");
+
+@font-face{
+    font-family: gabriola;
+    src: url(./gabriola.ttf);
+}
+.slider {
+  width: 100vw; /* Adjust the width to your desired slider size */
+  overflow: hidden;
+  margin-top: -6rem;
+  width: 100vw;
+  /* margin-left: -5rem; */
+}
+
+.slide {
+  flex: 0 0 100%;
+  width: 100vw; /* Adjust the width to match the container width */
+  text-align: center;
+  display: none;
+  height: 40rem !important;
+  align-items: center;
+}
+
+.slide h1,
+.section-part h1, .section_text-mobile h1 {
+  font-family: gabriola;
+  font-size: xxx-large;
+}
+.slide h3 {
+  font-family: "Lato";
+}
+.slide h1, .section_text-mobile h1,
+h3,
+.foodPrice {
+  color: white;
+}
+.slide h3 strong,
+.orng-col {
+  color: #ff700d !important;
+}
+.orng-col.afitap {
+  font-family: "Tangerine" !important;
+  font-size: xxx-large !important;
+}
+.slide .menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.slide .PriceTag {
+  background-image: url("./assets/Assets Afitap Web/1/Assets 4. Slider/price tag thingy.png");
+  background-size: cover;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  width: 5rem;
+  height: 2rem;
+  margin-bottom: 0.5rem;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-part {
+  width: 100vw; /* Adjust the width to your desired slider size */
+  overflow: hidden;
+  /* margin-top: -6rem; */
+  width: 100vw;
+  /* margin-left: -5rem; */
+  margin-top: -10rem;
+}
+.section_cont {
+  width: 100vw; /* Adjust the width to match the container width */
+  height: 45rem !important;
+  align-items: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section_text h1, .section_text-mobile h1,
+p {
+  color: whitesmoke !important;
+}
+.section_text {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1.5rem;
+  align-items: center;
+}
+.section_cont-2 {
+  width: 100vw; /* Adjust the width to match the container width */
+  height: 40rem !important;
+  align-items: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: -10rem;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slide {
+    
+    overflow: hidden;
+    animation: zoom-in 20s ease-in-out infinite; /* Adjust the duration and timing function as needed */
+  }
+  
+  @keyframes zoom-in {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1); /* Adjust the zoom level as needed */
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .mobile-section-1, .mobile-section-3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.mobile-section-2, .mobile-section-4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/* @media only screen and (min-width: 280px) and (max-width: 767px) {
+} */
+@media only screen and (min-width: 280px) and (max-width: 425px) {
+    .slider{
+        margin-top: -6.5rem !important;
+    }
+  .slide {
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    justify-content: flex-end;
+    display: flex;
+    margin-top: 1rem !important;
+    height: 15rem !important;
+  }
+  .slide .full {
+    width: 100% !important;
+  }
+  .slide div {
+    width: 55% !important;
+  }
+  .slide h1,
+  .section-part h1 {
+    font-size: xx-large !important;
+  }
+  .slide .PriceTag {
+    width: 5rem !important;
+    font-size: small !important;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    height: 1.5rem !important;
+    margin-bottom: 0.25rem;
+  }
+  .slide .full-slide {
+    width: 70% !important;
+  }
+  .slide .full-slide div {
+    width: 100% !important;
+  }
+  .section_cont {
+    height: fit-content !important;
+  }
+  .desktop{
+    display: none !important;
+  }
+  .section_text-mobile{
+    height: fit-content;
+    padding: 0.5rem;
+}
+.section-part-mobile{
+    width: 75%;
+}
+
+}
+ @media only screen and (min-width: 426px) and (max-width: 767px) {
+     .section_text-mobile{
+         height: 24rem;
+         padding: 0.5rem;
+        }
+        .desktop{
+            display: none !important;
+        }
+        .section-part-mobile{
+            width: 65%;
+        }
+        
+    }
+    @media only screen and (min-width: 768px) {
+     .section-part-mobile{
+         width: 50%;
+     }
+    .mobile-section-1, .mobile-section-2, .mobile-section-3, .mobile-section-4{
+        height: 26rem;
+    }
+    .section_text-mobile{
+        padding: 1rem;
+    }
+ }
