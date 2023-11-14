@@ -91,7 +91,15 @@ const i18nData = {
     our_socials: "Follow us : ",
     our_address: "<h6>Address</h6>Osman Örek Boulevard, 15 Kasım Sokak, Konce & Hocanın Apt. No:9-10<br /> Kyrenia - TRNC",
     our_programs: "<h6>Opening Hours</h6> <h4>Monday - Sunday</h4> <strong>12:00 – 02:00 <br /> </strong>",
-    our_contact: "Contact us :"
+    our_contact: "Contact us :",
+    wlcme: "Welcome!",
+    tday_spc: "What would you like today?",
+    onl_lak: "Only <strong>The Highest Quality</strong> products",
+    ao_res: "Our restaurant",
+    sm_serv_desc: "Afitap Kebap invites you to an unforgettable gastronomic experience with its unique atmosphere and delicious dishes. Expert chefs carefully prepare a rich menu that brings together local and international flavors.",
+    essiz: "Unique flavors",
+    essiz_desc: "We aim to provide you with an unforgettable experience using only the highest quality and freshest ingredients. With<span class='orng-col'>96 +</span> unique flavors prepared with care, we strive to give you an experience you will never forget.",
+    cntc_dsc: "To get more information about our restaurant, make a reservation, or ask any questions, contact us. We would be happy to assist you."
   },
   tr: {
     lang_icon: "<img src='https://flagcdn.com/48x36/tr.png' style='width: 1.25rem; height: 1rem;' alt='lang'>",
@@ -152,7 +160,16 @@ const i18nData = {
     our_socials: "Bizi Takip Edin: ",
     our_address: "<h6>Adres</h6>Osman Örek Bulvarı, 15 Kasım Sokak, Konce & Hocanın Apt. No:9-10<br /> Girne - KKTC",
     our_programs: "<h6>Açılış Saatleri</h6> <h4>Pazartesi - Pazar</h4> <strong>12:00 – 02:00 <br /> </strong>",
-    our_contact: "Bize Ulaşın: "
+    our_contact: "Bize Ulaşın: ",
+    wlcme: "Hoşgeldiniz !",
+    tday_spc: "Bugün Ne Arzu<br />Ederdiniz ?",
+    onl_lak: "Sadece <strong>En Kaliteli</strong> ürünler",
+    ao_res: "Restoranımız",
+    sm_serv_desc: "Afitap Kebap, eşsiz atmosferi ve lezzetli yemekleriyle sizleri unutulmaz bir gastronomi deneyimine davet ediyor. Usta şeflerin özenle hazırladığı zengin menü, yerel ve uluslararası lezzetleri bir araya getiriyor.",
+    essiz: "Eşsiz lezzetler",
+    essiz_desc: "Yalnızca en kaliteli ve en taze malzemeleri kullanmaözenle hazırlanmış<span class='orng-col'>96 +</span> benzersiz tadıylaSizlere asla unutamayacağınız bir deneyim yaşatmayı hedefliyoruz.",
+    cntc_dsc: "Restoranimiz hakinda daha fazla bilgi almak, rezervasyon yapmak veya herhangi bir soru sormak icin bizimmle iletisime gecin. Size yardimci olmaktan mutluluk duyariz",
+
 },
 ru: {
   lang_icon: "<img src='https://flagcdn.com/48x36/ru.png' style='width: 1.25rem; height: 1rem;' alt='Язык'>",
@@ -213,7 +230,15 @@ ru: {
   our_socials: "Следите за нами: ",
   our_address: "<h6>Адрес</h6> Осман Орек Бульвар, 15 улица Консе и Хокана, дом № 9-10<br /> Гирне - Северный Кипр",
   our_programs: "<h6>Часы Работы</h6> <h4>Понедельник - Воскресенье</h4> <strong>12:00 – 02:00 <br /> </strong>",
-  our_contact: "Свяжитесь с нами: "
+  our_contact: "Свяжитесь с нами: ",
+  wlcme: "Добро пожаловать!",
+tday_spc: "Что бы вы хотели сегодня?",
+onl_lak: "Только <strong>Самые Качественные</strong> продукты",
+ao_res: "Наш ресторан",
+sm_serv_desc: "Afitap Kebap приглашает вас на незабываемый гастрономический опыт своей уникальной атмосферой и вкусной едой. Умелые шеф-повара тщательно готовят богатое меню, соединяя местные и международные вкусы.",
+essiz: "Уникальные вкусы",
+essiz_desc: "Мы стремимся предоставить вам неповторимый опыт, используя только самые качественные и свежие ингредиенты. С более чем<span class='orng-col'>96 +</span> уникальными вкусами, которые вы никогда не забудете, мы нацелены на создание незабвенного опыта для вас.",
+cntc_dsc: "Чтобы получить больше информации о нашем ресторане, сделать бронирование или задать любые вопросы, свяжитесь с нами. Мы с удовольствием вам поможем.",
 }
 
 
