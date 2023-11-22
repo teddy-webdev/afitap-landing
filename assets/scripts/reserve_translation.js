@@ -47,7 +47,7 @@ const i18nData = {
       "Afitap Kebap Restaurant offers a great venue for special meals and events. Special events and meals held at this restaurant will help you create unforgettable memories.",
     m_cont: "Contact us by phone",
     r_prog:
-      "<h6>Opening Hours</h6> <h4>Monday - Sunday</h4> <p>12:00 &#8211;02:00<br /></p>",
+      "<h6 class='gabr-font'>Working Hours</h6> <h4>Monday - Sunday</h4> <p>12:00 &#8211;02:00<br /></p>",
     main_o: "online reservation",
     main_o_2: "No Need to Wait for a Table",
     nppl: "How Many People",
@@ -85,7 +85,7 @@ const i18nData = {
       "Afitap Kebap Restoran, özel yemekler ve etkinlikler için harika bir mekan sunmaktadır. Bu restoranda düzenlenen özel etkinlikler ve yemekler, unutulmaz anılar yaratmanıza yardımcı olacaktır.",
     m_cont: "Telefon ile Bize ulaşın",
     r_prog:
-      "<h6>Açılış Saatleri</h6> <h4>Pazartesi - Pazar</h4> <p>12:00 &#8211;02:00<br /></p>",
+      "<h6 class='gabr-font'>Çalışma Saatleri</h6> <h4>Pazartesi - Pazar</h4> <p>12:00 &#8211;02:00<br /></p>",
     main_o: "online rezarvasyon",
     main_o_2: "Masa Beklemeye Gerek yok",
     nppl: "Kaç Kişi",
@@ -123,7 +123,7 @@ const i18nData = {
       "Ресторан Afitap Kebap предоставляет замечательное место для особых блюд и мероприятий. Особые мероприятия и блюда, проводимые в этом ресторане, помогут вам создать незабываемые воспоминания.",
     m_cont: "Свяжитесь с нами по телефону",
     r_prog:
-      "<h6>Часы работы</h6> <h4>Понедельник - Воскресенье</h4> <p>12:00 – 02:00<br /></p>",
+      "<h6 class='gabr-font'>Часы работы</h6> <h4>Понедельник - Воскресенье</h4> <p>12:00 – 02:00<br /></p>",
     main_o: "Онлайн-бронирование",
     main_o_2: "Нет необходимости ждать столик",
     nppl: "Сколько человек",
