@@ -98,7 +98,7 @@ const i18nData = {
     ao_res: "Our restaurant",
     sm_serv_desc: "Afitap Kebap invites you to an unforgettable gastronomic experience with its unique atmosphere and delicious dishes. Expert chefs carefully prepare a rich menu that brings together local and international flavors.",
     essiz: "Unique flavors",
-    essiz_desc: "We aim to provide you with an unforgettable experience using only the highest quality and freshest ingredients. With<span class='orng-col'>96 +</span> unique flavors prepared with care, we strive to give you an experience you will never forget.",
+    essiz_desc: "We aim to provide you with an unforgettable experience using only the highest quality and freshest ingredients. With<span class='orng-col'> 96 +</span> unique flavors prepared with care, we strive to give you an experience you will never forget.",
     cntc_dsc: "To get more information about our restaurant, make a reservation, or ask any questions, contact us. We would be happy to assist you."
   },
   tr: {
@@ -167,7 +167,7 @@ const i18nData = {
     ao_res: "Restoranımız",
     sm_serv_desc: "Afitap Kebap, eşsiz atmosferi ve lezzetli yemekleriyle sizleri unutulmaz bir gastronomi deneyimine davet ediyor. Usta şeflerin özenle hazırladığı zengin menü, yerel ve uluslararası lezzetleri bir araya getiriyor.",
     essiz: "Eşsiz lezzetler",
-    essiz_desc: "Yalnızca en kaliteli ve en taze malzemeleri kullanmaözenle hazırlanmış<span class='orng-col'>96 +</span> benzersiz tadıylaSizlere asla unutamayacağınız bir deneyim yaşatmayı hedefliyoruz.",
+    essiz_desc: "Yalnızca en kaliteli ve en taze malzemeleri kullanmaözenle hazırlanmış<span class='orng-col'> 96 +</span> benzersiz tadıylaSizlere asla unutamayacağınız bir deneyim yaşatmayı hedefliyoruz.",
     cntc_dsc: "Restoranimiz hakinda daha fazla bilgi almak, rezervasyon yapmak veya herhangi bir soru sormak icin bizimmle iletisime gecin. Size yardimci olmaktan mutluluk duyariz",
 
 },
@@ -237,7 +237,7 @@ onl_lak: "Только <strong>Самые Качественные</strong> пр
 ao_res: "Наш ресторан",
 sm_serv_desc: "Afitap Kebap приглашает вас на незабываемый гастрономический опыт своей уникальной атмосферой и вкусной едой. Умелые шеф-повара тщательно готовят богатое меню, соединяя местные и международные вкусы.",
 essiz: "Уникальные вкусы",
-essiz_desc: "Мы стремимся предоставить вам неповторимый опыт, используя только самые качественные и свежие ингредиенты. С более чем<span class='orng-col'>96 +</span> уникальными вкусами, которые вы никогда не забудете, мы нацелены на создание незабвенного опыта для вас.",
+essiz_desc: "Мы стремимся предоставить вам неповторимый опыт, используя только самые качественные и свежие ингредиенты. С более чем<span class='orng-col'> 96 +</span> уникальными вкусами, которые вы никогда не забудете, мы нацелены на создание незабвенного опыта для вас.",
 cntc_dsc: "Чтобы получить больше информации о нашем ресторане, сделать бронирование или задать любые вопросы, свяжитесь с нами. Мы с удовольствием вам поможем.",
 }
 
