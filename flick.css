@@ -198,6 +198,10 @@ p {
 .section-part-mobile{
     width: 75%;
 }
+.slide h1, .section-part h1, .section_text-mobile h1 {
+  font-family: gabriola;
+  font-size: 50px;
+}
 
 }
  @media only screen and (min-width: 426px) and (max-width: 767px) {
@@ -231,6 +235,10 @@ p {
     #primay{
         margin-top: 1rem;
     }
+    .slide h1, .section-part h1, .section_text-mobile h1 {
+      font-family: gabriola;
+      font-size: 64px;
+  }
  }
  .preloader {
   position: fixed;

@@ -6,9 +6,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   var content = document.getElementById("content_sme_wrapper");
 
-  preloader.style.display = "none";
+  setTimeout(function() {
+    preloader.style.display = "none";
 
   content.style.display = "block";
+  }, 3500);
+  
 });
 
 
