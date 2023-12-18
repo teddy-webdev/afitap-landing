@@ -150,6 +150,16 @@ p {
 /* @media only screen and (min-width: 280px) and (max-width: 767px) {
 } */
 @media only screen and (min-width: 280px) and (max-width: 425px) {
+  .slide h3.orng-col{
+    margin-top: -1.75rem !important;
+    font-size: 65px !important;
+  }
+  .slide h3.cl_h3{
+    margin-top: -1.75rem !important;
+  }
+  .slide h1.szin_icin{
+    margin-top: -1.5rem !important;
+  }
     .slider{
         margin-top: -6.5rem !important;
     }
