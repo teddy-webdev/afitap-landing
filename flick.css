@@ -157,6 +157,9 @@ p {
   .slide h3.cl_h3{
     margin-top: -1.75rem !important;
   }
+  .slide h3.wlcme{
+    font-size: 34px !important;
+  }
   .slide h1.szin_icin{
     margin-top: -1.5rem !important;
   }
