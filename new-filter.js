@@ -3,7 +3,6 @@ const kebap_btn = document.querySelector("#Kebaplar");
 const mezeler_btn = document.querySelector("#mezeler");
 const salatalar_btn = document.querySelector("#salatalar");
 const arasıcaklar_btn = document.querySelector("#arasıcaklar");
-const dürümler_btn = document.querySelector("#dürümler");
 const diyetmenu_btn = document.querySelector("#diyetmenu");
 const cocukmenu_btn = document.querySelector("#cocukmenu");
 const icecekler_btn = document.querySelector("#icecekler");
@@ -20,7 +19,6 @@ const salatalar = document.querySelector("#salatalar_section");
 const mezeler = document.querySelector("#mezeler_section");
 const fırın = document.querySelector("#fırın_section");
 const kebaplar = document.querySelector("#kebaplar_section");
-const dürümler = document.querySelector("#dürümler_section");
 const diyetmenü = document.querySelector("#diyetmenü_section");
 const cocukmenusu = document.querySelector(".cocukmenusu_sections");
 const Raki = document.querySelector(".Rakı_section");
@@ -42,7 +40,6 @@ document.addEventListener("DOMContentLoaded", function () {
   salatalar.classList.add("hide");
   mezeler.classList.add("hide");
   fırın.classList.add("hide");
-  dürümler.classList.add("hide");
   diyetmenü.classList.add("hide");
   cocukmenusu.classList.add("hide");
 });
@@ -59,7 +56,6 @@ all_btn.addEventListener("click", () => {
   salatalar.classList.remove("hide");
   mezeler.classList.remove("hide");
   fırın.classList.remove("hide");
-  dürümler.classList.remove("hide");
   diyetmenü.classList.remove("hide");
   cocukmenusu.classList.remove("hide");
 });
@@ -73,7 +69,6 @@ kebap_btn.addEventListener("click", () => {
   salatalar.classList.add("hide");
   mezeler.classList.add("hide");
   fırın.classList.add("hide");
-  dürümler.classList.add("hide");
   diyetmenü.classList.add("hide");
   cocukmenusu.classList.add("hide");
   Raki.classList.add("hide");
@@ -91,7 +86,6 @@ mezeler_btn.addEventListener("click", () => {
   kebaplar.classList.add("hide");
   salatalar.classList.add("hide");
   fırın.classList.add("hide");
-  dürümler.classList.add("hide");
   diyetmenü.classList.add("hide");
   cocukmenusu.classList.add("hide");
   Raki.classList.add("hide");
@@ -109,7 +103,6 @@ salatalar_btn.addEventListener("click", () => {
   kebaplar.classList.add("hide");
   mezeler.classList.add("hide");
   fırın.classList.add("hide");
-  dürümler.classList.add("hide");
   diyetmenü.classList.add("hide");
   cocukmenusu.classList.add("hide");
   Raki.classList.add("hide");
@@ -127,7 +120,6 @@ arasıcaklar_btn.addEventListener("click", () => {
   salatalar.classList.add("hide");
   mezeler.classList.add("hide");
   fırın.classList.add("hide");
-  dürümler.classList.add("hide");
   diyetmenü.classList.add("hide");
   cocukmenusu.classList.add("hide");
   Raki.classList.add("hide");
@@ -136,24 +128,7 @@ arasıcaklar_btn.addEventListener("click", () => {
   Biralar.classList.add("hide");
   İçecekler.classList.add("hide");
 });
-dürümler_btn.addEventListener("click", () => {
-  if (dürümler.classList.contains("hide")) {
-    dürümler.classList.remove("hide");
-    //   dürümler.scrollIntoView({ behavior: "smooth" });
-  }
-  list_1.classList.add("hide");
-  kebaplar.classList.add("hide");
-  salatalar.classList.add("hide");
-  mezeler.classList.add("hide");
-  fırın.classList.add("hide");
-  diyetmenü.classList.add("hide");
-  cocukmenusu.classList.add("hide");
-  Raki.classList.add("hide");
-  Şaraplar.classList.add("hide");
-  Viski.classList.add("hide");
-  Biralar.classList.add("hide");
-  İçecekler.classList.add("hide");
-});
+
 diyetmenu_btn.addEventListener("click", () => {
   if (diyetmenü.classList.contains("hide")) {
     diyetmenü.classList.remove("hide");
@@ -164,7 +139,6 @@ diyetmenu_btn.addEventListener("click", () => {
   salatalar.classList.add("hide");
   mezeler.classList.add("hide");
   fırın.classList.add("hide");
-  dürümler.classList.add("hide");
   cocukmenusu.classList.add("hide");
   Raki.classList.add("hide");
   Şaraplar.classList.add("hide");
@@ -182,7 +156,6 @@ cocukmenu_btn.addEventListener("click", () => {
   salatalar.classList.add("hide");
   mezeler.classList.add("hide");
   fırın.classList.add("hide");
-  dürümler.classList.add("hide");
   diyetmenü.classList.add("hide");
   Raki.classList.add("hide");
   Şaraplar.classList.add("hide");
@@ -200,7 +173,6 @@ icecekler_btn.addEventListener("click", () => {
   salatalar.classList.add("hide");
   mezeler.classList.add("hide");
   fırın.classList.add("hide");
-  dürümler.classList.add("hide");
   diyetmenü.classList.add("hide");
   cocukmenusu.classList.add("hide");
   Raki.classList.add("hide");
@@ -217,7 +189,6 @@ fırınurunleri_btn.addEventListener("click", () => {
   kebaplar.classList.add("hide");
   salatalar.classList.add("hide");
   mezeler.classList.add("hide");
-  dürümler.classList.add("hide");
   diyetmenü.classList.add("hide");
   cocukmenusu.classList.add("hide");
   Raki.classList.add("hide");
@@ -236,7 +207,6 @@ raki_btn.addEventListener("click", () => {
   salatalar.classList.add("hide");
   mezeler.classList.add("hide");
   fırın.classList.add("hide");
-  dürümler.classList.add("hide");
   diyetmenü.classList.add("hide");
   cocukmenusu.classList.add("hide");
   Şaraplar.classList.add("hide");
@@ -254,7 +224,6 @@ viski_btn.addEventListener("click", () => {
   salatalar.classList.add("hide");
   mezeler.classList.add("hide");
   fırın.classList.add("hide");
-  dürümler.classList.add("hide");
   diyetmenü.classList.add("hide");
   cocukmenusu.classList.add("hide");
   Raki.classList.add("hide");
@@ -272,7 +241,6 @@ biralar_btn.addEventListener("click", () => {
   salatalar.classList.add("hide");
   mezeler.classList.add("hide");
   fırın.classList.add("hide");
-  dürümler.classList.add("hide");
   diyetmenü.classList.add("hide");
   cocukmenusu.classList.add("hide");
   Raki.classList.add("hide");
@@ -290,7 +258,6 @@ saraplar_btn.addEventListener("click", () => {
   salatalar.classList.add("hide");
   mezeler.classList.add("hide");
   fırın.classList.add("hide");
-  dürümler.classList.add("hide");
   diyetmenü.classList.add("hide");
   cocukmenusu.classList.add("hide");
   Raki.classList.add("hide");
