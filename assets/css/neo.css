@@ -133,23 +133,22 @@ span.amount {
 .grr_menu {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
   margin-bottom: 3rem;
 }
-.person{
+.person {
   width: 10rem !important;
   height: 12rem !important;
 }
 .pt-food-menu-main {
   width: 10rem !important;
 }
-.wper_person p{
+.wper_person p {
   line-height: 1.2 !important;
   font-weight: 300 !important;
-  font-size: .65rem !important;
-  
+  font-size: 0.65rem !important;
 }
 .bg-\[\#2250fc\] {
   transition: all 0.3s ease-in-out;
@@ -157,7 +156,7 @@ span.amount {
   width: 10rem !important;
   overflow: hidden !important;
 }
-.person:hover .bg-\[\#2250fc\] {
+/* .person:hover .bg-\[\#2250fc\] {
   border-top: 2px #080808 solid ;
   background-color: white;
   height: fit-content;
@@ -174,22 +173,22 @@ span.amount {
   display: block !important;
   color: black !important;
   height: fit-content !important;
-}
+} */
 
 @media only screen and (min-width: 767px) {
   .bg-\[\#2250fc\] {
     transition: all 0.3s ease-in-out;
     height: 20rem !important;
-  width: 20rem !important;
+    width: 20rem !important;
   }
   .pt-food-menu-main {
     width: 20rem !important;
   }
-  .person{
+  .person {
     height: 23rem !important;
     width: 20rem !important;
   }
-  .person:hover .bg-\[\#2250fc\] {
+  /* .person:hover .bg-\[\#2250fc\] {
     border-top: 2px #080808 solid ;
     background-color: white;
     height: fit-content;
@@ -206,7 +205,7 @@ span.amount {
     display: block !important;
     color: black !important;
     height: fit-content !important;
-  }
+  } */
 
   .pt-food-menu-details {
     display: none !important;
@@ -214,25 +213,25 @@ span.amount {
 }
 
 @media only screen and (min-width: 767px) {
-  .kjhjdb{
+  .kjhjdb {
     display: flex;
-      justify-content: center !important;
-      align-items: flex-start !important;
-      flex-direction: row !important;
-      gap: .75rem !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+    flex-direction: row !important;
+    gap: 0.75rem !important;
   }
   .wper_person p,
-.wper_person span,
-.pt-food-menu-title {
-  font-size: 1rem !important;
-  font-style: normal !important;
-  font-weight: 400 !important;
-  text-transform: none;
-  line-height: 1.7 !important;
-  letter-spacing: 0;
-  color: #fff;
-  font-family: "Poppins", sans-serif;
-}
+  .wper_person span,
+  .pt-food-menu-title {
+    font-size: 1rem !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    text-transform: none;
+    line-height: 1.7 !important;
+    letter-spacing: 0;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+  }
 }
 @media only screen and (min-width: 767px) and (max-width: 1200px) {
   .grr_menu {
@@ -242,8 +241,6 @@ span.amount {
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
   }
-  
-
 
   .grr_titl {
     margin-left: -6rem;
@@ -262,7 +259,8 @@ span.amount {
   .grr_titl {
     margin-left: -6rem;
   }
-  .vc_custom_1628228143347, .vc_custom_1628228229472 {
+  .vc_custom_1628228143347,
+  .vc_custom_1628228229472 {
     height: 40rem !important;
   }
 }
@@ -311,8 +309,6 @@ span.amount {
 .h-full {
   height: 100%;
 }
-
-
 
 main {
   position: relative;
@@ -461,7 +457,7 @@ main {
   }
 }
 
-.blurbb{
+.blurbb {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -469,23 +465,23 @@ main {
   width: 100%;
   margin-top: -36px;
 }
-.blurbb div h4{
+.blurbb div h4 {
   font-family: "Marck Script";
-  color: white; 
+  color: white;
   font-weight: 400;
   font-size: 2rem;
 }
-.blurbb div p{
+.blurbb div p {
   font-weight: 200;
   font-size: 1rem;
-  color: white; 
+  color: white;
   line-height: 32px;
 }
-.blurbb div{
+.blurbb div {
   padding: 2rem;
   margin: 5rem;
 }
-.btn_flex{
+.btn_flex {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -494,13 +490,13 @@ main {
 .dt-sc-image-border:after {
   background-color: #080808 !important;
 }
-.kjhjdb{
+.kjhjdb {
   display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.kjhjdb_qr img{
+.kjhjdb_qr img {
   height: 6rem;
   width: 6rem;
 }
