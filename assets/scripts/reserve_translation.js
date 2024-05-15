@@ -47,7 +47,7 @@ const i18nData = {
       "Afitap Kebap Restaurant offers a great venue for special meals and events. Special events and meals held at this restaurant will help you create unforgettable memories.",
     m_cont: "Contact us by phone",
     r_prog:
-      "<h6 class='gabr-font'>Working Hours</h6> <h4>Monday - Sunday</h4> <p>12:00 &#8211;02:00<br /></p>",
+      "<h6 class='gabr-font'>Working Hours</h6> <h4>Monday - Sunday</h4> <p>12:00 &#8211;01:30<br /></p>",
     main_o: "online reservation",
     main_o_2: "No Need to Wait for a Table",
     nppl: "How Many People",
@@ -67,7 +67,7 @@ const i18nData = {
     our_address:
       "<h6>Address</h6>Osman Örek Boulevard, 15 Kasım Sokak, Konce & Hocanın Apt. No:9-10<br /> Kyrenia - TRNC",
     our_programs:
-      "<h6>Opening Hours</h6> <h4>Monday - Sunday</h4> <strong>12:00 – 02:00 <br /> </strong>",
+      "<h6>Opening Hours</h6> <h4>Monday - Sunday</h4> <strong>12:00 – 01:30 <br /> </strong>",
     our_contact: "Contact us :",
   },
   tr: {
@@ -85,7 +85,7 @@ const i18nData = {
       "Afitap Kebap Restoran, özel yemekler ve etkinlikler için harika bir mekan sunmaktadır. Bu restoranda düzenlenen özel etkinlikler ve yemekler, unutulmaz anılar yaratmanıza yardımcı olacaktır.",
     m_cont: "Telefon ile Bize ulaşın",
     r_prog:
-      "<h6 class='gabr-font'>Çalışma Saatleri</h6> <h4>Pazartesi - Pazar</h4> <p>12:00 &#8211;02:00<br /></p>",
+      "<h6 class='gabr-font'>Çalışma Saatleri</h6> <h4>Pazartesi - Pazar</h4> <p>12:00 &#8211;01:30<br /></p>",
     main_o: "online rezarvasyon",
     main_o_2: "Masa Beklemeye Gerek yok",
     nppl: "Kaç Kişi",
@@ -105,7 +105,7 @@ const i18nData = {
     our_address:
       "<h6>Adres</h6>Osman Örek Bulvarı, 15 Kasım Sokak, Konce & Hocanın Apt. No:9-10<br /> Girne - KKTC",
     our_programs:
-      "<h6>Açılış Saatleri</h6> <h4>Pazartesi - Pazar</h4> <strong>12:00 – 02:00 <br /> </strong>",
+      "<h6>Açılış Saatleri</h6> <h4>Pazartesi - Pazar</h4> <strong>12:00 – 01:30 <br /> </strong>",
     our_contact: "Bize Ulaşın: ",
   },
   ru: {
@@ -123,7 +123,7 @@ const i18nData = {
       "Ресторан Afitap Kebap предоставляет замечательное место для особых блюд и мероприятий. Особые мероприятия и блюда, проводимые в этом ресторане, помогут вам создать незабываемые воспоминания.",
     m_cont: "Свяжитесь с нами по телефону",
     r_prog:
-      "<h6 class='gabr-font'>Часы работы</h6> <h4>Понедельник - Воскресенье</h4> <p>12:00 – 02:00<br /></p>",
+      "<h6 class='gabr-font'>Часы работы</h6> <h4>Понедельник - Воскресенье</h4> <p>12:00 – 01:30<br /></p>",
     main_o: "Онлайн-бронирование",
     main_o_2: "Нет необходимости ждать столик",
     nppl: "Сколько человек",
@@ -143,10 +143,9 @@ const i18nData = {
     our_address:
       "<h6>Адрес</h6>Осман Орек Бульвар, улица 15 Касым, Апартаменты Консе и Ходжа, № 9-10<br /> Гирне - Северный Кипр",
     our_programs:
-      "<h6>Часы работы</h6> <h4>Понедельник - Воскресенье</h4> <strong>12:00 – 02:00 <br /> </strong>",
+      "<h6>Часы работы</h6> <h4>Понедельник - Воскресенье</h4> <strong>12:00 – 01:30 <br /> </strong>",
     our_contact: "Свяжитесь с нами: ",
-  }
-
+  },
 };
 
 const i18nInstance = new i18n();
@@ -178,15 +177,17 @@ function setContactFormPlaceHolders(lang) {
     document.querySelector('input[name = "email"]').placeholder = "E-posta";
     document.querySelector('input[name="dt_mc_emailid"]').placeholder =
       "E-posta adresinizi girin";
-  }
-  else if (lang === "ru") {
-    document.querySelector('input[name="startDate"]').placeholder = "Выберите дату";
-    document.querySelector('input[name="ResTime"]').placeholder = "Выберите время";
+  } else if (lang === "ru") {
+    document.querySelector('input[name="startDate"]').placeholder =
+      "Выберите дату";
+    document.querySelector('input[name="ResTime"]').placeholder =
+      "Выберите время";
     document.querySelector('input[name="telefon"]').placeholder = "Телефон: ";
-    document.querySelector('input[name="email"]').placeholder = "Электронная почта";
-    document.querySelector('input[name="dt_mc_emailid"]').placeholder = "Введите ваш адрес электронной почты";
-}
- else {
+    document.querySelector('input[name="email"]').placeholder =
+      "Электронная почта";
+    document.querySelector('input[name="dt_mc_emailid"]').placeholder =
+      "Введите ваш адрес электронной почты";
+  } else {
     document.querySelector('input[name="startDate"]').placeholder =
       "Select Date";
     document.querySelector('input[name="ResTime"]').placeholder = "Select Time";

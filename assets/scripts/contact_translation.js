@@ -52,7 +52,7 @@ const i18nData = {
     c_mail:
       "<span class='pe-icon pe-mail'></span> <h6>Send Mail</h6> Email : <a href='mailto:info@afitapkebap.com' >info@afitapkebap.com </a>",
     c_prog:
-      "<span class='pe-icon pe-timer'></span><h6>Opening Hours</h6> <h4>Monday - Sunday</h4> <strong>12:00 – 02:00 <br /> </strong>",
+      "<span class='pe-icon pe-timer'></span><h6>Opening Hours</h6> <h4>Monday - Sunday</h4> <strong>12:00 – 01:30 <br /> </strong>",
     c_desc:
       "Afitap Kebap's menu is rich and diverse. In addition to traditional Turkish kebabs, there are special appetizers, salads, hot appetizers, chicken kebabs, wraps, desserts and many more options. One of the special flavors of the restaurant, 'Grilled Halloumi', includes 'fresh halloumi' It is a delicious dish where cheese and vegetables are cooked on the grill. Similarly, 'Cyprus Pastrami' is a feast of taste where dried meat blended with special spices meets a special taste.",
 
@@ -60,7 +60,7 @@ const i18nData = {
     our_address:
       "<h6>Address</h6>Osman Örek Boulevard, 15 Kasım Sokak, Konce & Hocanın Apt. No:9-10<br /> Kyrenia - TRNC",
     our_programs:
-      "<h6>Opening Hours</h6> <h4>Monday - Sunday</h4> <strong>12:00 – 02:00 <br /> </strong>",
+      "<h6>Opening Hours</h6> <h4>Monday - Sunday</h4> <strong>12:00 – 01:30 <br /> </strong>",
     our_contact: "Contact us :",
   },
   tr: {
@@ -83,7 +83,7 @@ const i18nData = {
     c_mail:
       "<span class='pe-icon pe-mail'></span> <h6>Mail Atın</h6> Email : <a href='mailto:info@afitapkebap.com' >info@afitapkebap.com</a>",
     c_prog:
-      "<span class='pe-icon pe-timer'></span><h6>Açılış Saatleri</h6> <h4>Pazartesi - Pazar</h4> <strong>12:00 – 02:00 <br /> </strong>",
+      "<span class='pe-icon pe-timer'></span><h6>Açılış Saatleri</h6> <h4>Pazartesi - Pazar</h4> <strong>12:00 – 01:30 <br /> </strong>",
     c_desc:
       "Afitap Kebap'ın menüsü zengin ve çeşitlidir. Geleneksel Türk kebaplarının yanı sıra, özel mezeler, salatalar, ara sıcaklar, tavuk kebapları, dürümler, tatlılar ve daha birçok seçenek mevcuttur. Restoranın özel lezzetlerinden biri olan 'Izgara Hellim', taze hellim peyniri ve sebzelerin ızgarada pişirilerek sunulduğu bir enfes yemektir. Aynı şekilde 'Kıbrıs Pastırması' da, özel baharatlarla harmanlanmış ve kurutulmuş etin özel bir lezzetle buluştuğu bir lezzet şölenidir.",
 
@@ -91,12 +91,12 @@ const i18nData = {
     our_address:
       "<h6>Adres</h6>Osman Örek Bulvarı, 15 Kasım Sokak, Konce & Hocanın Apt. No:9-10<br /> Girne - KKTC",
     our_programs:
-      "<h6>Açılış Saatleri</h6> <h4>Pazartesi - Pazar</h4> <strong>12:00 – 02:00 <br /> </strong>",
+      "<h6>Açılış Saatleri</h6> <h4>Pazartesi - Pazar</h4> <strong>12:00 – 01:30 <br /> </strong>",
     our_contact: "Bize Ulaşın: ",
   },
   ru: {
     lang_icon:
-        "<img src='https://flagcdn.com/48x36/ru.png' style='width: 1.25rem; height: 1rem;' alt='Язык'>",
+      "<img src='https://flagcdn.com/48x36/ru.png' style='width: 1.25rem; height: 1rem;' alt='Язык'>",
     home_nav: "Главная",
     menu_nav: "Меню",
     about_us: "О нас",
@@ -108,23 +108,22 @@ const i18nData = {
     thx: "Спасибо! Ваше сообщение получено!",
     oops: "Ошибка! Что-то пошло не так при отправке формы.",
     c_addr:
-        "<span class='pe-icon pe-map-marker'></span><h6>Адрес</h6>Осман Орек Бульвар, улица 15 Касым, Апартаменты Консе и Ходжа, № 9-10<p> Гирне - Северный Кипр</p>",
+      "<span class='pe-icon pe-map-marker'></span><h6>Адрес</h6>Осман Орек Бульвар, улица 15 Касым, Апартаменты Консе и Ходжа, № 9-10<p> Гирне - Северный Кипр</p>",
     c_rez:
-        "<span class='pe-icon pe-phone'></span> <h6>Звоните нам</h6> <a href='tel:+90 533 888 8786' >Бронирование : +90 533 888 8786</a>",
+      "<span class='pe-icon pe-phone'></span> <h6>Звоните нам</h6> <a href='tel:+90 533 888 8786' >Бронирование : +90 533 888 8786</a>",
     c_mail:
-        "<span class='pe-icon pe-mail'></span> <h6>Напишите нам</h6> Электронная почта: <a href='mailto:info@afitapkebap.com' >info@afitapkebap.com</a>",
+      "<span class='pe-icon pe-mail'></span> <h6>Напишите нам</h6> Электронная почта: <a href='mailto:info@afitapkebap.com' >info@afitapkebap.com</a>",
     c_prog:
-        "<span class='pe-icon pe-timer'></span><h6>Часы работы</h6> <h4>Понедельник - Воскресенье</h4> <strong>12:00 – 02:00 <br /> </strong>",
+      "<span class='pe-icon pe-timer'></span><h6>Часы работы</h6> <h4>Понедельник - Воскресенье</h4> <strong>12:00 – 01:30 <br /> </strong>",
     c_desc:
-        "Меню ресторана 'Афитап Кебап' богато и разнообразно. Оно включает в себя не только традиционные турецкие кебабы, но также специальные закуски, салаты, горячие закуски, куриные кебабы, буррито, десерты и многое другое. Одним из уникальных блюд ресторана является 'Гриль Халлуми' - восхитительное блюдо, в котором свежий халлуми с овощами готовится на гриле. Также стоит попробовать 'Кипрскую пастрами', где специально приготовленное и высушенное мясо встречается с особым вкусом.",
+      "Меню ресторана 'Афитап Кебап' богато и разнообразно. Оно включает в себя не только традиционные турецкие кебабы, но также специальные закуски, салаты, горячие закуски, куриные кебабы, буррито, десерты и многое другое. Одним из уникальных блюд ресторана является 'Гриль Халлуми' - восхитительное блюдо, в котором свежий халлуми с овощами готовится на гриле. Также стоит попробовать 'Кипрскую пастрами', где специально приготовленное и высушенное мясо встречается с особым вкусом.",
     our_socials: "Следите за нами: ",
     our_address:
-        "<h6>Адрес</h6>Осман Орек Бульвар, улица 15 Касым, Апартаменты Консе и Ходжа, № 9-10<br /> Гирне - Северный Кипр",
+      "<h6>Адрес</h6>Осман Орек Бульвар, улица 15 Касым, Апартаменты Консе и Ходжа, № 9-10<br /> Гирне - Северный Кипр",
     our_programs:
-        "<h6>Часы работы</h6> <h4>Понедельник - Воскресенье</h4> <strong>12:00 – 02:00 <br /> </strong>",
+      "<h6>Часы работы</h6> <h4>Понедельник - Воскресенье</h4> <strong>12:00 – 01:30 <br /> </strong>",
     our_contact: "Свяжитесь с нами: ",
-}
-
+  },
 };
 
 const i18nInstance = new i18n();
@@ -156,18 +155,17 @@ function setContactFormPlaceHolders(lang) {
 
     document.querySelector('input[name="dt_mc_emailid"]').placeholder =
       "E-posta adresinizi girin";
-  }
-  else if (lang === "ru") {
+  } else if (lang === "ru") {
     (document.querySelector('input[name="fullName"]').placeholder = "Ваше имя"),
       (document.querySelector('input[name="email"]').placeholder =
         "Адрес электронной почты");
     document.querySelector('input[name="subject"]').placeholder = "Тема";
-    document.querySelector('textarea[name="message"]').placeholder = "Сообщение";
-  
+    document.querySelector('textarea[name="message"]').placeholder =
+      "Сообщение";
+
     document.querySelector('input[name="dt_mc_emailid"]').placeholder =
       "Введите ваш адрес электронной почты";
-  }
-   else {
+  } else {
     (document.querySelector('input[name="fullName"]').placeholder =
       "Full Name"),
       (document.querySelector('input[name="email"]').placeholder =

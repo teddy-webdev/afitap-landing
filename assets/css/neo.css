@@ -99,6 +99,7 @@ p {
   color: #ff700d !important;
   border-radius: 2rem;
   background-color: #474545;
+  padding-top: 0.85rem;
 }
 
 .filter-btn:focus {

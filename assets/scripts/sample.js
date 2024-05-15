@@ -42,7 +42,7 @@
 
 //     our_socials: "Follow us : ",
 //     our_address: "<h6>Address</h6>Osman Örek Boulevard, 15 Kasım Sokak, Konce & Hocanın Apt. No:9-10<br /> Kyrenia - TRNC",
-//     our_programs: "<h6>Opening Hours</h6> <h4>Monday - Sunday</h4> <strong>12:00 – 02:00 <br /> </strong>",
+//     our_programs: "<h6>Opening Hours</h6> <h4>Monday - Sunday</h4> <strong>12:00 – 01:30 <br /> </strong>",
 //     our_contact: "Contact us :"
 //   },
 //   tr: {
@@ -55,7 +55,7 @@
 
 //     our_socials: "Bizi Takip Edin: ",
 //     our_address: "<h6>Adres</h6>Osman Örek Bulvarı, 15 Kasım Sokak, Konce & Hocanın Apt. No:9-10<br /> Girne - KKTC",
-//     our_programs: "<h6>Açılış Saatleri</h6> <h4>Pazartesi - Pazar</h4> <strong>12:00 – 02:00 <br /> </strong>",
+//     our_programs: "<h6>Açılış Saatleri</h6> <h4>Pazartesi - Pazar</h4> <strong>12:00 – 01:30 <br /> </strong>",
 //     our_contact: "Bize Ulaşın: "
 // }
 
