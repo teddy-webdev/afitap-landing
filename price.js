@@ -1,7 +1,7 @@
 // Define string values for SHEET_ID, SHEET_TITLE, SHEET_RANGE, and Column_IDs
 const SHEET_ID = "1EIUv8HimtpkZTO8cfM1tILY2pQQ5FYiFFf6Roba2g8M";
 const SHEET_TITLE = "Prices";
-const SHEET_RANGE = "A1:C106";
+const SHEET_RANGE = "A1:C107";
 const Column_IDs = ["food_title", "food_price"];
 
 // Construct the FULL_URL using the string values
