@@ -48,7 +48,7 @@ const i18nData = {
     c_addr:
       "<span class='pe-icon pe-map-marker'></span><h6>Address</h6>Osman Örek Boulevard, 15 Kasım Sokak, Konce & Hocanın Apt. No:9-10<p > Kyrenia - TRNC</p>",
     c_rez:
-      "<span class='pe-icon pe-phone'></span> <h6>Call Us</h6> <a href='tel:+90 533 888 8786' >Reservation: +90 533 888 8786 </a>",
+      "<span class='pe-icon pe-phone'></span> <h6>Call Us</h6> <a href='tel:0 (392) 444 87 86 ' >Reservation: 0 (392) 444 87 86  </a>",
     c_mail:
       "<span class='pe-icon pe-mail'></span> <h6>Send Mail</h6> Email : <a href='mailto:info@afitapkebap.com' >info@afitapkebap.com </a>",
     c_prog:
@@ -79,7 +79,7 @@ const i18nData = {
     c_addr:
       "<span class='pe-icon pe-map-marker'></span><h6>Adres</h6>Osman Örek Bulvarı, 15 Kasım Sokak, Konce & Hocanın Apt. No:9-10<p> Girne - KKTC</p>",
     c_rez:
-      "<span class='pe-icon pe-phone'></span> <h6>Bizi Arayın</h6> <a href='tel:+90 533 888 8786' >Rezervasyon : +90 533 888 8786</a>",
+      "<span class='pe-icon pe-phone'></span> <h6>Bizi Arayın</h6> <a href='tel:0 (392) 444 87 86 ' >Rezervasyon : 0 (392) 444 87 86 </a>",
     c_mail:
       "<span class='pe-icon pe-mail'></span> <h6>Mail Atın</h6> Email : <a href='mailto:info@afitapkebap.com' >info@afitapkebap.com</a>",
     c_prog:
@@ -110,7 +110,7 @@ const i18nData = {
     c_addr:
       "<span class='pe-icon pe-map-marker'></span><h6>Адрес</h6>Осман Орек Бульвар, улица 15 Касым, Апартаменты Консе и Ходжа, № 9-10<p> Гирне - Северный Кипр</p>",
     c_rez:
-      "<span class='pe-icon pe-phone'></span> <h6>Звоните нам</h6> <a href='tel:+90 533 888 8786' >Бронирование : +90 533 888 8786</a>",
+      "<span class='pe-icon pe-phone'></span> <h6>Звоните нам</h6> <a href='tel:0 (392) 444 87 86 ' >Бронирование : 0 (392) 444 87 86 </a>",
     c_mail:
       "<span class='pe-icon pe-mail'></span> <h6>Напишите нам</h6> Электронная почта: <a href='mailto:info@afitapkebap.com' >info@afitapkebap.com</a>",
     c_prog:
