@@ -11,7 +11,9 @@
   width: 100vw;
   /* margin-left: -5rem; */
 }
-
+.slides{
+  overflow: hidden;
+}
 .slide {
   flex: 0 0 100%;
   width: 100vw; /* Adjust the width to match the container width */
@@ -24,10 +26,15 @@
 .slide h1,
 .section-part h1, .section_text-mobile h1 {
   font-family: gabriola;
-  font-size: xxx-large;
+  font-size: 64px;
 }
 .slide h3 {
-  font-family: "Lato";
+  font-family: "OpenSans";
+  font-size: 34px !important;
+}
+.slide .menu h3 {
+  font-family: "OpenSans";
+  font-size: 1rem !important;
 }
 .slide h1, .section_text-mobile h1,
 h3,
@@ -135,9 +142,27 @@ p {
     align-items: flex-end;
 }
 
+.section-part-mobile .dt-sc-button.medium {
+  font-size: 16px;
+  padding: 2px 17px 2px !important;
+}
+
 /* @media only screen and (min-width: 280px) and (max-width: 767px) {
 } */
 @media only screen and (min-width: 280px) and (max-width: 425px) {
+  .slide h3.orng-col{
+    margin-top: -1.75rem !important;
+    font-size: 65px !important;
+  }
+  .slide h3.cl_h3{
+    margin-top: -1.75rem !important;
+  }
+  .slide h3.wlcme{
+    font-size: 34px !important;
+  }
+  .slide h1.szin_icin{
+    margin-top: -1.5rem !important;
+  }
     .slider{
         margin-top: -6.5rem !important;
     }
@@ -186,29 +211,58 @@ p {
 .section-part-mobile{
     width: 75%;
 }
+.slide h1, .section-part h1, .section_text-mobile h1 {
+  font-family: gabriola;
+  font-size: 50px;
+}
 
 }
  @media only screen and (min-width: 426px) and (max-width: 767px) {
      .section_text-mobile{
-         height: 24rem;
-         padding: 0.5rem;
+      height: fit-content;
+      min-height: 24rem;
         }
         .desktop{
             display: none !important;
         }
         .section-part-mobile{
-            width: 65%;
+            width: 75%;
+            padding: 1rem;
         }
         
     }
     @media only screen and (min-width: 768px) {
      .section-part-mobile{
          width: 50%;
+         margin-left: 2rem;
+    margin-right: 2rem;
      }
     .mobile-section-1, .mobile-section-2, .mobile-section-3, .mobile-section-4{
-        height: 26rem;
+        height: 30rem;
     }
     .section_text-mobile{
         padding: 1rem;
+        padding-left: 3rem;
+    padding-right: 3rem;
     }
+    #primay{
+        margin-top: 1rem;
+    }
+    .slide h1, .section-part h1, .section_text-mobile h1 {
+      font-family: gabriola;
+      font-size: 64px;
+  }
  }
+ .preloader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 999999999;
+  background-color: #ffffff;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(https://themexriver.com/wp/gonet/wp-content/themes/gonet/assets/images/icons/preloader.svg);
+  background-size: 120px;
+}

@@ -43,7 +43,7 @@ const i18nData = {
 
     our_menu: "Our menu",
     _alls: "All",
-    ara_sicaklars: "INTERMEDIATE MEALS",
+    ara_sicaklars: "STARTERS",
     saladss: "SALADS",
     mezelers: "APPETIZERS",
     firins: "BAKERY PRODUCTS",
@@ -76,7 +76,7 @@ const i18nData = {
     our_address:
       "<h6>Address</h6>Osman Örek Boulevard, 15 Kasım Sokak, Konce & Hocanın Apt. No:9-10<br /> Kyrenia - TRNC",
     our_programs:
-      "<h6>Opening Hours</h6> <h4>Monday - Sunday</h4> <strong>12:00 – 02:00 <br /> </strong>",
+      "<h6>Opening Hours</h6> <h4>Monday - Sunday</h4> <strong>12:00 – 01:30 <br /> </strong>",
     our_contact: "Contact us :",
   },
   tr: {
@@ -104,7 +104,7 @@ const i18nData = {
     biralar: "Biralar",
     icecekler: "İçecekler",
     _alls: "TÜMÜ",
-    ara_sicaklars: "ARA SICAKLAR",
+    ara_sicaklars: "STARTERSI",
     saladss: "SALATALAR",
     mezelers: "MEZELER",
     firins: "FIRIN ÜRÜNLERİ",
@@ -123,7 +123,7 @@ const i18nData = {
     our_address:
       "<h6>Adres</h6>Osman Örek Bulvarı, 15 Kasım Sokak, Konce & Hocanın Apt. No:9-10<br /> Girne - KKTC",
     our_programs:
-      "<h6>Açılış Saatleri</h6> <h4>Pazartesi - Pazar</h4> <strong>12:00 – 02:00 <br /> </strong>",
+      "<h6>Açılış Saatleri</h6> <h4>Pazartesi - Pazar</h4> <strong>12:00 – 01:30 <br /> </strong>",
     our_contact: "Bize Ulaşın: ",
   },
   ru: {
@@ -150,7 +150,7 @@ const i18nData = {
     biralar: "Пиво",
     icecekler: "Напитки",
     _alls: "Все",
-    ara_sicaklars: "Закуски",
+    ara_sicaklars: "стартер",
     saladss: "Салаты",
     mezelers: "Закуски",
     firins: "Выпечка",
@@ -168,10 +168,9 @@ const i18nData = {
     our_address:
       "<h6>Адрес</h6> Осман Орек Бульвар, улица 15 Консе и Хокана, дом № 9-10<br /> Гирне - Северный Кипр",
     our_programs:
-      "<h6>Часы Работы</h6> <h4>Понедельник - Воскресенье</h4> <strong>12:00 – 02:00 <br /> </strong>",
+      "<h6>Часы Работы</h6> <h4>Понедельник - Воскресенье</h4> <strong>12:00 – 01:30 <br /> </strong>",
     our_contact: "Свяжитесь с нами: ",
-}
-
+  },
 };
 
 const i18nInstance = new i18n();
@@ -197,16 +196,12 @@ function setContactFormPlaceHolders(lang) {
   if (lang === "tr") {
     document.querySelector('input[name="dt_mc_emailid"]').placeholder =
       "E-posta adresinizi girin";
-
-  }
-  else if (lang === "ru") {
+  } else if (lang === "ru") {
     document.querySelector('input[name="dt_mc_emailid"]').placeholder =
       "Введите свой адрес электронной почты";
-
-  }
-  else {
-    document.querySelector('input[name="dt_mc_emailid"]').placeholder = "Enter your Email";
-
+  } else {
+    document.querySelector('input[name="dt_mc_emailid"]').placeholder =
+      "Enter your Email";
   }
 }
 
